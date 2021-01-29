@@ -1,0 +1,11 @@
+export { default as eCommBackEnd } from './eCommBackEnd.png';
+export { default as GitHub } from './GitHub.png';
+export { default as portrait } from './portrait.jpg';
+export { default as LIBug } from './LIBug.png';
+export { default as LILogo } from './LILogo.png';
+export { default as onBase } from './onBase.jpg';
+export { default as readTheory } from './readTheory.jpg';
+export { default as resume } from './resume.jpg';
+export { default as TallyMax } from './TallyMax.png';
+export { default as weatherView } from './weatherView.png';
+export { default as wishList } from './wishList.png';
