@@ -1,6 +1,7 @@
 import React from 'react';
-import { portrait, LIBug, GitHub, resume } from '../../assets/images';
+import pictures from '../../utils';
 
+const { portrait, LIBug, GitHub, resume } = pictures
 const About = () => {
     return (
         <section>
