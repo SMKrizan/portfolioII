@@ -1,30 +1,29 @@
-import React, { useEffect } from 'react';
+import React, {useState} from 'react';
 
 const Nav = (props) => {
-    
-    const { 
-        categories = [],
-        currentCategory,
-        setCurrentCategory,
-    } = props;
 
-    
+  // initializes category state and uses 'useState()' hook to facilitate category change
+  const [pages] = useState(['About', 'Projects', 'Contact', 'Resume']);
+
     return (
-        <ul className='flex-row'>
-            <li>
-                <a href="#about" >About me</a>
-            </li>
-            <li>
-                <a href="#projects">Featured Projects</a>
-            </li>
-            <li>
-                <a href="#contact">Get in Touch</a>
-            </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
-        </ul>
-
+        <header>
+            <ul>
+                {pages.map(page => (
+                    <li key={page}>
+                        <a
+                            href={"#" + page}
+                            onClick={() => props.handlePageChange(page)}
+                        >
+                            {page}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+            <h1>Hello!</h1>
+            <h4>My name is Sara M. Krizan.</h4>
+            <p>My profesional interests include helping teams find elegant solutions in software development and
+                project management.</p>
+        </header>
     )
 }
 

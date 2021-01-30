@@ -1,26 +1,26 @@
 import React, { useState, useCallback } from 'react';
 import Gallery from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from 'react-images';
-import projectPhotos from '../../utils/photos.js'
+import screenshots from '../../utils/photos.js'
 
-const { photos } = projectPhotos
+const { photos } = screenshots
+
 const Projects = () => {
 
+    // the following 4 constants enable the 'lightbox' feature of npm package 'react-photo-gallery'
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
     const openLightbox = useCallback((event, { photo, index }) => {
         setCurrentImage(index);
-        setViewerIsOpen(true);
-    }, []);
-
+        setViewerIsOpen(true)}, []);
     const closeLightbox = () => {
         setCurrentImage(0);
-        setViewerIsOpen(false);
-    };
+        setViewerIsOpen(false)};
 
+    // 'Gallery', 'ModalGateway' and 'Carousel' are built-in components of 'react-photo-gallery'
     return (
         <div>
+            <h3><span id='text'>featured</span> Projects</h3>
             {console.log(photos)}
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>
@@ -29,10 +29,9 @@ const Projects = () => {
                         <Carousel
                             currentIndex={currentImage}
                             views={photos.map(x => {
-                                console.log("X",x)
                                 return ({
-                             src: x.src,
-                                srcset: x.srcSet,
+                                src: x.src,
+                                alt: x.alt,
                                 caption: x.title
                             })
                         

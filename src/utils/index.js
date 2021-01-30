@@ -2,7 +2,6 @@ const eCommBackEnd = '/assets/images/eCommBackEnd.png';
 const GitHub = '/assets/images/GitHub.png';
 const portrait = '/assets/images/portrait.jpg';
 const LIBug = '/assets/images/LIBug.png';
-const LILogo = '/assets/images/LILogo.png';
 const onBase = '/assets/images/onBase.jpg';
 const readTheory = '/assets/images/readTheory.jpg';
 const resume = '/assets/images/resume.jpg';
@@ -15,7 +14,6 @@ export default  {
     GitHub,
     portrait,
     LIBug,
-    LILogo,
     onBase,
     readTheory,
     resume,

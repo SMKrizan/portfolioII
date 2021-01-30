@@ -1,34 +1,32 @@
 import React from 'react';
-import pictures from '../../utils';
+import images from '../../utils';
 
-const { portrait, LIBug, GitHub, resume } = pictures
+const { portrait, LIBug, GitHub } = images
+
 const About = () => {
     return (
         <section>
             <div id="portrait-me">
-                <img src={portrait} alt="photographic portrait of Sara Krizan" />
+                <img src= {portrait} alt="photographic portrait of Sara Krizan" />
             </div>
             <h3>About <span id='text'>Me</span></h3>
             <p>I am a full stack web developer and project manager with a decade of experience providing administrative support for legal, scientific, and not-for-profit businesses.</p>
             <div>
                 <div className='badge' id='badge-li'>
-                    <a href="https://www.linkedin.com/in/smkrizan/" target='_blank' rel="noreferrer"><img id='li'
-                        src={LIBug}
-                        alt='https://www.linkedin.com/in/smkrizan/' /></a>
+                    <a href= "https://www.linkedin.com/in/smkrizan/" target='_blank' rel="noreferrer">
+                        <img id='li'
+                        src= {LIBug}
+                        alt= 'https://www.linkedin.com/in/smkrizan/' />
+                    </a>
                 </div>
             </div>
             <div>
                 <div className='badge' id='badge-gh'>
-                    <a href="https://github.com/SMKrizan" target='_blank' rel="noreferrer"><img id='gh'
-                        src={GitHub}
-                        alt='https://github.com/SMKrizan' /></a>
-                </div>
-            </div>
-            <div>
-                <div className='badge' id='badge-pdf'>
-                    <a href="https://drive.google.com/file/d/1sQ9kBGvVXRuROj97ZTW61djTUFuxxBDt/view?usp=sharing"
-                        target='_blank' rel="noreferrer"><img id='pdf' src={resume}
-                            alt='link to resume' /></a>
+                    <a href= "https://github.com/SMKrizan" target='_blank' rel="noreferrer">
+                        <img id='gh'
+                        src= {GitHub}
+                        alt= 'https://github.com/SMKrizan' />
+                    </a>
                 </div>
             </div>
         </section>
