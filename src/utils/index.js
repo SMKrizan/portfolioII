@@ -4,6 +4,7 @@ const portrait = '/assets/images/portrait.jpg';
 const LIBug = '/assets/images/LIBug.png';
 const onBase = '/assets/images/onBase.jpg';
 const readTheory = '/assets/images/readTheory.jpg';
+const stack = '/assets/images/stack.png'
 const res = '/assets/images/res.jpg';
 const TallyMax = '/assets/images/TallyMax.png';
 const weatherView = '/assets/images/weatherView.png';
@@ -17,6 +18,7 @@ export default  {
     onBase,
     readTheory,
     res,
+    stack,
     TallyMax,
     weatherView,
     wishList

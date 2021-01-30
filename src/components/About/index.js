@@ -1,7 +1,7 @@
 import React from 'react';
 import images from '../../utils';
 
-const { portrait, LIBug, GitHub } = images
+const { portrait, LIBug, GitHub, stack } = images
 
 const About = () => {
     return (
@@ -26,6 +26,15 @@ const About = () => {
                         <img id='gh'
                         src= {GitHub}
                         alt= 'https://github.com/SMKrizan' />
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div className='badge' id='badge-so'>
+                    <a href= "https://stackoverflow.com/users/14132348/smkrizan?tab=profile" target='_blank' rel="noreferrer">
+                        <img id='so'
+                        src= {stack}
+                        alt= 'https://stackoverflow.com/users/14132348/smkrizan?tab=profile' />
                     </a>
                 </div>
             </div>
