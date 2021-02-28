@@ -1,0 +1,37 @@
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #eb01eb
+}
+
+h1 {
+    font-size:7em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 6.3em;
+    text-align: center;
+}
+
+p {
+    font-size: 5em;
+    text-align: center;
+}

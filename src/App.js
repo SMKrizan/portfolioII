@@ -1,3 +1,4 @@
+// Kevin is recommending 'styled-components' with 'react-icons' for basic components with max customization
 import React, { useState } from 'react';
 import './index.css';
 import './App.css';

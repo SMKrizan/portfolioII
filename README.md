@@ -22,8 +22,9 @@ This is my portfolio as a full-stack web developer, redesigned to use React.
 - react-scripts
 
 ## Table of Contents:
-- [Instructions for Installation](#instructions-for-installation)
+
 - [Usage](#usage)
+- [Acknowledgements](#acknowledgements)
 - [Contributions](#contribution-guidelines)
 - [Questions?](#questions?)
 
@@ -32,7 +33,7 @@ This is my portfolio as a full-stack web developer, redesigned to use React.
 https://github.com/SMKrizan/portfolioII
 
 
-## Acknowledgements
+## <a name="acknowledgements">Acknowledgements</a>:
 Stack Overflow Icon made by [Pixel perfect](https://www.flaticon.com/)
 
 
@@ -57,7 +58,3 @@ For each project you feature in your portfolio, you should include the following
 - The title of the project
 - A link to the deployed application
 - A link to the corresponding GitHub repository
-
-SUBMISSION:
-- The URL of the functional, deployed application.
-- The URL of the GitHub repository, with a unique name and a README describing the project.

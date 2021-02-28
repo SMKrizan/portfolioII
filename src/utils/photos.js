@@ -1,8 +1,15 @@
 import pictures from './index.js';
 
-const { TallyMax, wishList, weatherView, onBase, readTheory, eCommBackEnd } = pictures
+const { TallyMax, wishList, weatherView, onBase, readTheory, woodlandConsulting, keep, shopShop } = pictures
 
 const photos = [
+    {
+        src: woodlandConsulting,
+        width: 2,
+        height: 1,
+        alt: 'Woodland Consulting application screenshot',
+        title: 'Group Project: MERN wesite for a small lighting design and engineering firm ({languages: Javascript}, {repo: https://github.com/SMKrizan/WoodlandConsultingLLC}, {link: https://woodland-consulting.herokuapp.com/})',
+    },
     {
         src: TallyMax,
         width: 1,
@@ -18,11 +25,11 @@ const photos = [
         title: 'Group Project: "12Wishes" holiday wish lists ({languages: Javascript, Handlebars, SCSS}, {repo: https://github.com/chriswein12/wish-list}, {link: https://twelve-wishes.herokuapp.com/})',
     },
     {
-        src: weatherView,
-        width: 2,
+        src: keep,
+        width: 1,
         height: 1,
-        alt: 'weatherView application screenshot',
-        title: '"WeatherView" access current & forecasted weather using 3rd party API ({languages: Javascript, HTML, CSS}, {repo: https://github.com/smkrizan/WeatherView/}, {link: https://smkrizan.github.io/WeatherView/})',
+        alt: 'keep budget tracker application screenshot',
+        title: '"keep" a simple budget tracker and Progressive Web App (PWA) using IndexedDB to facilitated a consistent user experience even with spotty internet reception ({languages: Javascript}, {repo: https://github.com/SMKrizan/keep}, {link: https://keep-budget-app.herokuapp.com/})',
     },
     {
         src: onBase,
@@ -39,12 +46,19 @@ const photos = [
         title: '"readTheory" note taking app ({languages: Javascript, HTML, CSS}, {repo: https://github.com/SMKrizan/readTheory}, {link: https://readtheory.herokuapp.com/})',
     },
     {
-        src: eCommBackEnd,
+        src: weatherView,
+        width: 2,
+        height: 1,
+        alt: 'weatherView application screenshot',
+        title: '"WeatherView" access current & forecasted weather using 3rd party API ({languages: Javascript, HTML, CSS}, {repo: https://github.com/smkrizan/WeatherView/}, {link: https://smkrizan.github.io/WeatherView/})',
+    },
+    {
+        src: shopShop,
         width: 1,
         height: 1,
-        alt: 'E-Commerce back end application screenshot',
-        title: 'E-Commerce Back End: ({languages: Javascript}, {repo: https://github.com/SMKrizan/E-Commerce-Back-End})',
+        alt: 'E-Commerce application screenshot',
+        title: 'E-Commerce website using Redux and Stripe payment platform ({languages: Javascript}, {repo: https://github.com/SMKrizan/shopShop-Redux}, {link:  https://shopshop-redux.herokuapp.com/})',
     }
-];
+]
 
 export default {photos};
