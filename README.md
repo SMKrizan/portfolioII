@@ -30,7 +30,10 @@ This is my portfolio as a full-stack web developer, redesigned to use React.
 
 
 ## <a name="usage">Usage</a>:
+Github repository: 
 https://github.com/SMKrizan/portfolioII
+Deployed portfolio:
+https://smkrizan.github.io/portfolioII/
 
 
 ## <a name="acknowledgements">Acknowledgements</a>:
