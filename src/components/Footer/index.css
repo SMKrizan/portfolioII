@@ -1,0 +1,44 @@
+footer {
+  font-size: 1em;
+  font-family: var(--txt1);
+  border-top: .2em double var(--yellow);
+  text-align: center;
+  max-height: 150px;
+  min-height: 100px;
+  padding: 12% 14% 0 14%;
+}
+
+/* MEDIA QUERY FOR SMALL DEVICES */
+@media screen and (min-width: 576px) {
+    footer {
+        font-size: 1.1em;
+        padding: 10% 10% 0 10%;
+    }
+    
+}
+
+/* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
+@media screen and (min-width: 768px) {
+    footer {
+        font-size: 1.3em;
+        padding: 10% 10% 0 10%;
+    }
+    
+}
+
+/* MEDIA QUERY FOR LARGE DEVICES */
+@media screen and (min-width: 992px) {
+    footer {
+        font-size: 1.5em;
+        padding: 10% 10% 0 10%;
+    }
+
+}
+
+/* MEDIA QUERY FOR EXTRA LARGE DEVICES */
+@media screen and (min-width: 1200px) {
+    footer {
+        font-size: 1.8em;
+    }
+
+}

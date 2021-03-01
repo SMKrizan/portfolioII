@@ -12,7 +12,7 @@ const Nav = (props) => {
                 {pages.map(page => (
                     <li key={page}>
                         <a
-                            href={"#" + page}
+                        href={"#" + page}
                             onClick={() => props.handlePageChange(page)}
                         >
                             {page}
@@ -20,7 +20,6 @@ const Nav = (props) => {
                     </li>
                 ))}
             </ol>
-            <h1>Hello!</h1>
         </header>
     )
 }

@@ -1,18 +1,22 @@
 // Kevin is recommending 'styled-components' with 'react-icons' for basic components with max customization
 import React, { useState } from 'react';
+
 import './index.css';
 import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
+
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Home from './pages/Home';
+
 import Footer from './components/Footer';
 import Nav from './components/Nav';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
 
 function App() {
 
   // 1st parameter is value of state and 2nd is the 'setter' which allows state to change; passing initial state '0' to useState(); note that useState() always returns an array
-  const [currentPage, handlePageChange] = useState('About');
+  const [currentPage, handlePageChange] = useState('/');
 
   const renderPage = () => {
     switch (currentPage) {
@@ -22,8 +26,10 @@ function App() {
         return <Contact />
       case 'Resume':
         return <Resume />;
-      default:
+      case 'About':
         return <About />;
+      default:
+        return <Home />;
     }
   };
 

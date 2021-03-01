@@ -7,10 +7,10 @@ const About = () => {
     console.log('images: ', images)
     return (
         <section>
+            <h2>About <span id='text'>Me</span></h2>
             <div id="portrait-me">
                 <img src={portrait} alt="photographic portrait of Sara Krizan" />
             </div>
-            <h3>About <span id='text'>Me</span></h3>
             <h4><span>My name is</span> Sara.</h4>
             <p>I am a full stack web developer and project manager with a decade of experience providing administrative and client support to legal, scientific, and not-for-profit businesses. I am interested in collaborating in a team environment in order to find elegant solutions to challenges in software development and project management.</p>
             <div>
