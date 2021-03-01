@@ -1,5 +1,5 @@
 :root {
-  --darkerer: #3d2e29;
+  --darker: #3d2e29;
   --dark: #4d4c4b;
   --dgrey: #6a6b6b;
   --lgrey: #b3b0b3;
@@ -29,6 +29,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h1#home {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  padding: 8em;
+  }
+
+div#home h1 {
+  padding: auto;
+  display: inline-block;
+  text-align: center;
+}  
 
 code {
   font-family: var(--txt2);
