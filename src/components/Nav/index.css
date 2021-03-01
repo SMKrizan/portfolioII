@@ -18,20 +18,12 @@ li a {
 }
 
 li a:hover {
+    color: var(--lneon);
     background-color: #eb01eb
 }
 
 h1 {
     font-size:7em;
-    text-align: center;
-}
-
-h4 {
-    font-size: 6.3em;
-    text-align: center;
-}
-
-p {
-    font-size: 5em;
+    padding: 2em;
     text-align: center;
 }

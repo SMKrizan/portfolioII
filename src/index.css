@@ -1,24 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: var(--txt2);
-  color: var(--dark);
-}
-
 :root {
   --dark: #4d4c4b;
   --dgrey: #6a6b6b;
@@ -39,19 +18,31 @@ code {
   --blue: #80fff7;
   --lblue: #04f1f5;
   
-  --txt1: 'Karla', sans-serif;
-  --txt2: 'Inconsolata', monospace;
+  --txt1: Karla, Latin, 'sans-serif';
+  --txt2: Inconsolata, source-code-pro, Menlo, Monaco, Consolas, monoscript;
 }    
+
+body {
+  margin: 0;
+  font-family: var(--txt1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--txt2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--dark);
+}
+
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
-
-  /* > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  } */
 }
 
 #text {
@@ -119,19 +110,6 @@ a:hover {
   color: var(--lneon);
 }
 
-#portrait {
-  max-width: 30%;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-}
-
-#portrait img {
-  /* border-radius: 0 0 50% 0; */
-  width: 100%;
-  /* border: 1px double var(--yellow); */
-}
-
 img.d-block.w-100 {
   opacity: .5;
 }
@@ -141,6 +119,7 @@ img.d-block.w-100:hover {
 }
 
 #get-in-touch, #about-me, #featured-projects {
+  font-size: 5em;
   text-align: center;
   padding: .7em 0 0 0;
 }
@@ -232,36 +211,36 @@ footer {
   font-family: var(--txt1);
   border: 1px double var(--yellow);
   text-align: center;
-  max-height: 200px;
+  max-height: 150px;
   min-height: 100px;
   padding: 5% 0;
 }
 
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
-  #portrait {
-      width: 50%;
+  #portrait-me {
+      width: 100%;
   }
 
 }
 
 /* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
 @media screen and (min-width: 768px) {
-  #portrait {
-      width: 45%;
+  #portrait-me {
+      width: 50%;
   }
 }
 
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 992px) {
-  #portrait {
-      width: 40%;
+  #portrait-me {
+      width: 25%;
   }
 }
 
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1200px) {
-  #portrait {
+  #portrait-me {
       width: 30%;
   }
 }

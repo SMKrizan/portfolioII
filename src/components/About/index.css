@@ -1,0 +1,23 @@
+#portrait-me {
+    max-width:20%;
+    margin-left: 5px;
+    margin-right: 0;
+    padding-left: 0;
+}
+  
+#portrait-me img {
+    border-radius: 0 0 50% 0;
+    width: 20%;
+    border: 3px double var(--yellow);
+}
+
+  h4 {
+    font-size: 6.3em;
+    text-align: center;
+}
+
+p {
+    font-size: 3em;
+    text-align: center;
+}
+  

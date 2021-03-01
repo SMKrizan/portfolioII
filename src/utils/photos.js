@@ -56,8 +56,8 @@ const photos = [
         src: shopShop,
         width: 1,
         height: 1,
-        alt: 'E-Commerce application screenshot',
-        title: 'E-Commerce website using Redux and Stripe payment platform ({languages: Javascript}, {repo: https://github.com/SMKrizan/shopShop-Redux}, {link:  https://shopshop-redux.herokuapp.com/})',
+        alt: 'shopShop application screenshot',
+        title: '"shopShop" e-commerce website using Redux and Stripe payment platform ({languages: Javascript}, {repo: https://github.com/SMKrizan/shopShop-Redux}, {link:  https://shopshop-redux.herokuapp.com/})',
     }
 ]
 

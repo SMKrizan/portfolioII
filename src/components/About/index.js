@@ -11,7 +11,8 @@ const About = () => {
                 <img src={portrait} alt="photographic portrait of Sara Krizan" />
             </div>
             <h3>About <span id='text'>Me</span></h3>
-            <p>I am a full stack web developer and project manager with a decade of experience providing administrative support for legal, scientific, and not-for-profit businesses.</p>
+            <h4><span>My name is</span> Sara.</h4>
+            <p>I am a full stack web developer and project manager with a decade of experience providing administrative and client support to legal, scientific, and not-for-profit businesses. I am interested in collaborating in a team environment in order to find elegant solutions to challenges in software development and project management.</p>
             <div>
                 <div className='badge' id='badge-li'>
                     <a href= "https://www.linkedin.com/in/smkrizan/" target='_blank' rel="noreferrer">

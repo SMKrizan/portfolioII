@@ -21,9 +21,6 @@ const Nav = (props) => {
                 ))}
             </ol>
             <h1>Hello!</h1>
-            <h4>My name is Sara.</h4>
-            <p>My professional interests include helping teams find elegant solutions in software development and
-                project management.</p>
         </header>
     )
 }
