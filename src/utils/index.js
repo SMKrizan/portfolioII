@@ -3,7 +3,7 @@
 // for heroku
 const GitHub = './assets/images/GitHub.png';
 const keep = './assets/images/keep.jpg';
-const portrait = './assets/images/portrait.jpeg';
+const portrait = './assets/images/portrait-cir.jpg';
 const LIBug = './assets/images/LIBug.png';
 const onBase = './assets/images/onBase.jpg';
 const readTheory = './assets/images/readTheory.jpg';

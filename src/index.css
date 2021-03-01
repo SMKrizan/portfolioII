@@ -80,7 +80,7 @@ ol.breadcrumb {
 
 #bg-image {
   position: absolute;
-  background: url(./assets/images/portrait.jpg);
+  /* background: url(./assets/images/portrait.jpg); */
   background-repeat: no-repeat;
   background-position: 50% 60%;
   opacity: 50%;

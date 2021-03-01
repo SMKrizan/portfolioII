@@ -10,6 +10,7 @@
 
 # production
 /build
+/build-old
 /images-from-build
 /images-from-src
 
