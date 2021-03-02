@@ -1,48 +1,56 @@
-header {
-    text-align: center;
-}
-
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  border-bottom: .2em double var(--yellow);
 }
 
 li {
   float: right;
+  width: 50%;
 }
 
 li a {
   display: block;
   text-align: center;
   font-size: 1.5em;
-  padding: 2em;
+  padding: 1.5em;
   text-decoration: none;
 }
 
-/* #Contact :hover {
-    background-color: var(--lblue);
-} */
-
-li a:focus {
-  color: var(--lneon);
-  background-color: var(--pink);
+h1#home {
+  font-size: 4em;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
 }
-li a:focus:active {
-  color: var(--lneon);
-}
-
-/* h1 {
-  font-size: 5em;
-  padding: 2em;
-  text-align: left;
-} */
 
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
   #portrait-me {
     width: 100%;
+  }
+
+  li {
+    float: right;
+    width: 25%;
+  }
+  
+  li a {
+    /* display: block; */
+    text-align: center;
+    font-size: 1.5em;
+    padding: auto;
+    text-decoration: none;
+  }
+  
+
+  h1#home {
+    font-size: 5em;
+    padding: 1em;
+    margin: 0;
   }
 }
 
@@ -51,6 +59,12 @@ li a:focus:active {
   #portrait-me {
     width: 50%;
   }
+
+  h1#home {
+    font-size: 6.5em;
+    padding: 1em;
+    margin: 0;
+  }
 }
 
 /* MEDIA QUERY FOR LARGE DEVICES */
@@ -58,11 +72,23 @@ li a:focus:active {
   #portrait-me {
     width: 25%;
   }
+
+  h1#home {
+    font-size: 7em;
+    padding: 1em;
+    margin: 0;
+  }
 }
 
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1200px) {
   #portrait-me {
     width: 30%;
+  }
+
+  h1#home {
+    font-size: 7.5em;
+    padding: 1em;
+    margin: 0;
   }
 }

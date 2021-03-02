@@ -30,18 +30,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1#home {
-  display: block;
+main {
   text-align: center;
-  font-size: 4em;
-  padding: 8em;
-  }
-
-div#home h1 {
-  padding: auto;
-  display: inline-block;
-  text-align: center;
-}  
+}
 
 code {
   font-family: var(--txt2);
@@ -52,7 +43,6 @@ code {
   padding: 0;
   color: var(--darker);
 }
-
 
 .no-gutters {
   margin-right: 0;
@@ -73,11 +63,6 @@ header.container {
   border: 1px double var(--yellow);
   color: var(--dark);
 }
-
-ol.breadcrumb {
-  /* width: 100%; */
-  border: 1px double var(--yellow);
-}    
 
 .intro-container {
   position: relative;
@@ -120,7 +105,16 @@ a {
   color: var(--dneon);
 }
 
-a:hover {
+li a:hover {
+  color: var(--lneon);
+  background-color: var(--lblue);
+}
+
+li a:focus {
+  background-color: var(--pink);
+}
+
+li a:active {
   color: var(--lneon);
 }
 

@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 
 import './index.css';
-import './App.css';
 
 import About from './pages/About';
 import Contact from './pages/Contact';
