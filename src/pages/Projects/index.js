@@ -20,7 +20,7 @@ const Projects = () => {
     // 'Gallery', 'ModalGateway' and 'Carousel' are built-in components of 'react-photo-gallery'
     return (
         <div>
-            <h3><span id='text'>featured</span> Projects</h3>
+            <h1 className='projects'><span className='bold'>featured</span><span className='reg'> Projects</span></h1>
             {console.log(photos)}
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>

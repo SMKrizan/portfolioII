@@ -4,6 +4,7 @@
 const GitHub = '/portfolioII/assets/images/GitHub.png';
 const keep = '/portfolioII/assets/images/keep.jpg';
 const portrait = '/portfolioII/assets/images/portrait-cir.jpg';
+const cameo = '/portfolioII/assets/images/portrait-cameo.jpg';
 const LIBug = '/portfolioII/assets/images/LIBug.png';
 const onBase = '/portfolioII/assets/images/onBase.jpg';
 const readTheory = '/portfolioII/assets/images/readTheory.jpg';
@@ -18,6 +19,7 @@ const wishList = '/portfolioII/assets/images/wishList.png';
 export default {
     GitHub,
     portrait,
+    cameo,
     keep,
     LIBug,
     onBase,

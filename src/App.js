@@ -33,7 +33,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div id='app'>
       <Nav
         currentPage={currentPage}
         handlePageChange={handlePageChange}

@@ -3,22 +3,19 @@ ol {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border-bottom: .2em double var(--yellow);
+  border-bottom: 0.2em double var(--yellow);
 }
-
 li {
   float: right;
   width: 50%;
 }
-
 li a {
   display: block;
   text-align: center;
   font-size: 1.5em;
-  padding: 1.5em;
+  padding: 1em;
   text-decoration: none;
 }
-
 h1#home {
   font-size: 4em;
   padding: 1em;
@@ -29,26 +26,20 @@ h1#home {
 
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
-  #portrait-me {
-    width: 100%;
-  }
-
   li {
     float: right;
     width: 25%;
   }
-  
   li a {
-    /* display: block; */
     text-align: center;
     font-size: 1.5em;
-    padding: auto;
     text-decoration: none;
   }
-  
-
+  #portrait-me {
+    width: 100%;
+  }
   h1#home {
-    font-size: 5em;
+    font-size: 5.7em;
     padding: 1em;
     margin: 0;
   }
@@ -59,9 +50,8 @@ h1#home {
   #portrait-me {
     width: 50%;
   }
-
   h1#home {
-    font-size: 6.5em;
+    font-size: 7.2em;
     padding: 1em;
     margin: 0;
   }
@@ -69,12 +59,19 @@ h1#home {
 
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 992px) {
+  li {
+    width: auto;
+    font-size: 2em;
+    padding: 2em;
+  }
+  ol {
+    border-bottom: none;
+  }
   #portrait-me {
     width: 25%;
   }
-
   h1#home {
-    font-size: 7em;
+    font-size: 8.2em;
     padding: 1em;
     margin: 0;
   }
@@ -85,9 +82,8 @@ h1#home {
   #portrait-me {
     width: 30%;
   }
-
   h1#home {
-    font-size: 7.5em;
+    font-size: 10em;
     padding: 1em;
     margin: 0;
   }

@@ -1,0 +1,20 @@
+h1.resume {
+    text-align: center;
+    margin: .5em auto;
+}
+span.reg {
+    font-size: 1em;
+}
+span.bold {
+    font-size: 1.3em;
+}
+div.resume {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+img#pdf {
+    border-radius: 100%;
+    width: 80%;
+    margin: .5em 0 auto 0;
+}  

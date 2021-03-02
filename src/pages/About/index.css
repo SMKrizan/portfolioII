@@ -1,23 +1,28 @@
-#portrait-me {
-    max-width:20%;
-    margin-left: 5px;
-    margin-right: 0;
-    padding-left: 0;
-}
-  
-#portrait-me img {
-    border-radius: 0 0 50% 0;
-    width: 20%;
-    border: 3px double var(--yellow);
-}
+img.me {
+    width: 100%;
+  } 
 
-  h4 {
-    font-size: 6.3em;
+div.me {
+    margin: 5px;
+} 
+
+.about {
     text-align: center;
 }
 
-p {
-    font-size: 3em;
-    text-align: center;
+h2.about {
+    padding: .2em
+}
+
+p.about {
+    font-size: 1.2em;
+    margin: auto .76em;
+}
+
+div#links {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 1.5em 20% 1.5em;
+    margin-bottom: 15%;
 }
   
