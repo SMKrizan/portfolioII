@@ -1,49 +1,24 @@
-import React, { useState, useCallback } from 'react';
-import Gallery from 'react-photo-gallery';
-import Carousel, { Modal, ModalGateway } from 'react-images';
-import screenshots from '../../utils/photos.js'
+import React from "react";
+import projects from "../../utils/images.js";
 
-const { photos } = screenshots
+const { project_info } = projects;
 
 const Projects = () => {
-
-    // the following 4 constants enable the 'lightbox' feature of npm package 'react-photo-gallery'
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true)}, []);
-    const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false)};
-
-    // 'Gallery', 'ModalGateway' and 'Carousel' are built-in components of 'react-photo-gallery'
-    return (
-        <div>
-            <h1 className='projects'><span className='bold'>featured</span><span className='reg'> Projects</span></h1>
-            {console.log(photos)}
-            <Gallery photos={photos} onClick={openLightbox} />
-            <ModalGateway>
-                {viewerIsOpen ? (
-                    <Modal onClose={closeLightbox}>
-                        <Carousel
-                            currentIndex={currentImage}
-                            views={photos.map(x => {
-                                return ({
-                                src: x.src,
-                                alt: x.alt,
-                                caption: x.title
-                            })
-                        
-                        })}
-                        />
-                    </Modal>
-                ) : null}
-            </ModalGateway>
+  return (
+    <section className="card">
+      {project_info.map((project) => (
+        <div key={project.key} id="card-container">
+          <div id={project.name} alt={project.alt}>
+            <img src={project.src} />
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <a href={project.repository}>GitHub</a>
+            <a href={project.deployment}>Link</a>
+          </div>
         </div>
-    );
-}
+      ))}
+    </section>
+  );
+};
 
 export default Projects;
-
-

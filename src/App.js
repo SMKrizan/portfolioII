@@ -9,8 +9,8 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Home from './pages/Home';
 
-import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
 
