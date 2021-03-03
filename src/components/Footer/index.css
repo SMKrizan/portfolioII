@@ -1,17 +1,14 @@
 footer {
   position: relative;
-  min-height: 100%;
   font-size: 1em;
   font-family: var(--txt1);
   padding: 6% 14% 6% 14%;
   text-align: center;
   bottom: 8%;
 }
-
 footer h5 {
   border: 0.2em double var(--yellow);
 }
-
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
   body {
@@ -28,12 +25,10 @@ footer h5 {
     padding: 5% 0;
   }
 }
-
 /* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
 @media screen and (min-width: 768px) {
   footer {
     font-size: 1.3em;
-    border-top: 0;
     bottom: 3%;
   }
   footer h5 {
@@ -41,7 +36,6 @@ footer h5 {
     margin: 3%;
   }
 }
-
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 992px) {
   footer {
@@ -53,10 +47,11 @@ footer h5 {
     padding: 2%;
   }
 }
-
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1200px) {
   footer {
-    font-size: 2em;
+    position: fixed;
+    font-size: 2.5em;
+    bottom: 0;
   }
 }

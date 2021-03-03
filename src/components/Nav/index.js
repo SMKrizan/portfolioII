@@ -3,7 +3,7 @@ import "./index.css";
 
 const Nav = (props) => {
   // initializes category state and uses 'useState()' hook to facilitate category change
-  const [pages] = useState(["Projects", "About", "Resume", "Contact"]);
+  const [pages] = useState(["Resume", "Projects", "Contact", "About"]);
 
   return (
     <header>

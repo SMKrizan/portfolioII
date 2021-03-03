@@ -2,7 +2,6 @@ html {
  height: 100%;
  box-sizing: border-box;
 }
-
 :root {
   --darker: #3d2e29;
   --dark: #4d4c4b;
@@ -25,7 +24,6 @@ html {
   --txt1: Karla, Latin, 'sans-serif';
   --txt2: Inconsolata, source-code-pro, Menlo, Monaco, Consolas, monoscript;
 } 
-
 body {
   margin: 0;
   font-family: var(--txt1);
@@ -33,12 +31,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
 }
-
 main {
   text-align: center;
   height: inherit;
 }
-
 *,
 *:before,
 *:after {
@@ -47,29 +43,10 @@ main {
   color: var(--darker);
   box-sizing: inherit;
 }
-
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
-
-/* a {
-  color: var(--dneon);
-}
-
-li a:hover {
-  color: var(--lneon);
-  background-color: var(--lblue);
-}
-
-li a:focus {
-  color: var(--pink);
-}
-
-li a:active {
-  color: var(--lneon);
-} */
-
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
 }
