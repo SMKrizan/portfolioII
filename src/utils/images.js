@@ -54,7 +54,7 @@ const project_info = [
         width: 1,
         alt: 'onBase application screenshot',
         title: "onBase",
-        desription: 'A Content Management System (CMS) for tracking employee data that runs from the command-line',
+        description: 'A Content Management System (CMS) for tracking employee data that runs from the command-line',
         repository: 'https://github.com/SMKrizan/onBase',
         deployment: '',
     },

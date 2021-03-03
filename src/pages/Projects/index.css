@@ -1,0 +1,22 @@
+div#2 {
+    max-width: 100%;
+}
+
+div#1 {
+    max-width: 50%
+}
+
+img.card {
+    width: 100%;
+}
+
+div.card-container div#2 {
+    box-shadow: 0 .3em .3em .3em var(--darker);
+    margin: auto;
+    text-align: center;
+    max-width: 80%
+}
+
+/* div.woodlandConsulting {
+    background-image: url('/portfolioII/assets/images/wc.jpg')
+} */

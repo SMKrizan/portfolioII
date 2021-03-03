@@ -1,6 +1,6 @@
 // for deploying to gh-pages, works as 'images...'; 
 // for localhost works with /assets... and portfolioII/assets...
-// for heroku
+// for heroku: /portfolioII/assets...
 const portrait = '/portfolioII/assets/images/portrait-cir.jpg';
 const cameo = '/portfolioII/assets/images/portrait-cameo.jpg';
 
