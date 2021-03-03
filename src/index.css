@@ -1,5 +1,6 @@
 html {
  height: 100%;
+ box-sizing: border-box;
 }
 
 :root {
@@ -9,7 +10,7 @@ html {
   --lgrey: #b3b0b3;
   --llgrey: #d4d3ce;
   --light: #e9ecef;
-  /* --lavender: #cec7d1; */
+  --lavender: #cec7d1;
   /* --lgrey: #b8b6b5;
   --lgrey: #cec7d1; */
   --dneon: #aab34a;
@@ -40,10 +41,13 @@ main {
   height: inherit;
 }
 
-* {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   color: var(--darker);
+  box-sizing: inherit;
 }
 
 /* .no-gutters {
