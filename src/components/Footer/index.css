@@ -18,7 +18,7 @@ footer h5 {
     position: fixed;
     font-size: 1.1em;
     padding: 0;
-    bottom: 10%;
+    bottom: 0;
     width: 100%;
   }
   footer h5 {
@@ -29,11 +29,11 @@ footer h5 {
 @media screen and (min-width: 768px) {
   footer {
     font-size: 1.3em;
-    bottom: 3%;
+    bottom: 27%;
   }
   footer h5 {
     border: 0.2em double var(--yellow);
-    margin: 3%;
+    margin: 1%;
   }
 }
 /* MEDIA QUERY FOR LARGE DEVICES */
@@ -51,7 +51,7 @@ footer h5 {
 @media screen and (min-width: 1200px) {
   footer {
     position: fixed;
-    font-size: 2.5em;
+    font-size: 3.5em;
     bottom: 0;
   }
 }
