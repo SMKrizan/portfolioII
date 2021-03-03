@@ -21,13 +21,11 @@ h1.contact {
 code {
   font-family: var(--txt2);
 }
-
-span.reg {
+h1.contact span.reg {
   font-size: 1.5em;
   padding-left: .3em;
 }
-
-span.bold {
+h1.contact span.bold {
   font-size: 1.7em;
   font-weight: bold;
 }
@@ -46,6 +44,14 @@ address {
   text-align: left;
 }
 
+#first {
+  color: var(--light);
+}
+
+#initial, #last {
+  color: var(--pink);
+}
+
 #location {
   color: var(--dyellow);
 }
@@ -56,35 +62,6 @@ address {
 
 span#email a:hover {
   color: var(--lneon);
-}
-
-.badge {
-  margin: .5em;
-  border-radius: 100%;
-  background-color: var(--light);
-  border: 1px double var(--yellow);
-  height: 5.0em;
-  width: 5.0em;
-}
-
-.badge:hover {
-  background-color: var(--lblue);
-}
-
-.badge img {
-  width: 60%;
-}
-
-img#li {
-  margin: 1.2em 0 0 .3em;
-}
-
-img#gh {
-  margin: 1em .1em 0 .2em;
-}
-
-img#so {
-  margin: .7em 0 0 .1em;
 }
 
 /* MEDIA QUERY FOR SMALL DEVICES */

@@ -9,7 +9,7 @@ const About = () => {
     <section>
       <h1 className="about">
         <span className="reg">About </span>
-        <span className="bold">Me</span>
+        <span className="bold">me</span>
       </h1>
       <div className="me">
         <img

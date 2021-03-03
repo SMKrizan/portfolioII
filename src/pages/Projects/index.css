@@ -1,37 +1,60 @@
 section.card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h1.projects {
+  padding: 0.76em 0.3em 0.5em 0.4em;
+}
+h1.projects span.reg {
+  font-size: 1.6em;
+}
+h1.projects span.bold {
+  font-size: 1.76em;
 }
 div.card-container {
-    box-shadow: .4em .5em 1.5em .1em var(--lavender);
-    background-color: var(--light);
-    margin: auto;
-    text-align: center;
-    width: 100%;
-    margin: 3%;
+  box-shadow: 0.4em 0.5em 1.5em 0.1em var(--l);
+  background-color: var(--lolive);
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin: 3%;
+}
+div.card-container h3 {
+  color: var(--darker);
+  margin: 0.4em;
+  padding: 0.2em;
+  font-size: 1.5em;
+}
+div.card-container p {
+  font-size: 1.3em;
+  background-color: var(--light);
+  padding: 0.4em;
+  text-align: center;
+  margin: 0 0.45em;
 }
 img.card {
-    width: 95%;
-    margin: .3em;
-    min-height: 20%;
-}
-h3 {
-    background-color: var(--neon);
-    color: var(--darker);
-    margin: .4em;
-    font-size: 1.5em;
-}
-p {
-    background-color: var(--light);
-    text-align: center;
-    margin: 1em;
+  width: 95%;
+  margin: 0.3em;
+  min-height: 20%;
 }
 div.links a {
-    float: right;
-    width: 50%;
-    font-size: 1em;
-    font-weight: 900;
-    padding: 1em 0;
+  float: right;
+  color: var(--dpink);
+  font-family: var(--txt2);
+  width: 50%;
+  font-size: 2.3em;
+  font-weight: 900;
+  padding: 0.2em 0 0.7em 0;
+  letter-spacing: 0.05em;
 }
-
+li a:hover {
+  color: var(--pink);
+  background-color: var(--lneon);
+}
+li a:focus {
+  background-color: var(--lblue);
+}
+li a:active {
+  color: var(--pink);
+}

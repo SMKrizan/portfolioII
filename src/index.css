@@ -11,14 +11,12 @@ html {
   --llgrey: #d4d3ce;
   --light: #e9ecef;
   --lavender: #cec7d1;
-  /* --lgrey: #b8b6b5;
-  --lgrey: #cec7d1; */
   --dneon: #aab34a;
   --neon: #bfcc2b;
   --lneon: #d2e603;
+  --lolive: #dbe899;
   --yellow:#fdf184;
   --dyellow: #fad000;
-  /* CLI */
   --pink: #eb01eb;
   --dpink: #cf09ed;
   --blue: #80fff7;
@@ -50,12 +48,12 @@ main {
   box-sizing: inherit;
 }
 
-/* .no-gutters {
+.no-gutters {
   margin-right: 0;
   margin-left: 0;
-} */
+}
 
-a {
+/* a {
   color: var(--dneon);
 }
 
@@ -65,57 +63,22 @@ li a:hover {
 }
 
 li a:focus {
-  background-color: var(--pink);
+  color: var(--pink);
 }
 
 li a:active {
   color: var(--lneon);
-}
-
-h1 {
-  text-align: left;
-  padding: 5%;
-}
-
-span.reg {
-  font-size: 1.5em;
-}
-
-span.bold {
-  font-size: 1.7em;
-  font-weight: bold;
-}
-
-/* .portfolio {
-  border: 1px double var(--yellow);
-  padding: 0 0 1.0em 0;
-
 } */
+
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
-  #portrait-me {
-      width: 100%;
-  }
-
 }
-
 /* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
 @media screen and (min-width: 768px) {
-  #portrait-me {
-      width: 50%;
-  }
 }
-
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 992px) {
-  #portrait-me {
-      width: 25%;
-  }
 }
-
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1200px) {
-  #portrait-me {
-      width: 30%;
-  }
 }

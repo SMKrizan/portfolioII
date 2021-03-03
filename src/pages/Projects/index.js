@@ -7,19 +7,25 @@ const { project_info } = projects;
 const Projects = () => {
   return (
     <section className="card">
+      <h1 className="projects">
+        <span className="reg">featured </span>
+        <span className="bold">Projects</span>
+      </h1>
       {project_info.map((project) => (
         <div key={project.key} className="card-container">
           <h3>{project.title}</h3>
           {/* <div
-            alt={project.alt}
+            alt={project.alt} 
             className={project.name}
             style={{ backgroundImage: "url(" + project.src + ")" }}
             ></div> */}
-            <img className='card' src={project.src} />
-            <p>{project.description}</p>
-            <div className="links">
-              <a href={project.repository}>GitHub</a>
-              <a href={project.deployment}>gotoApp</a>
+          <p>{project.description}</p>
+          <img className="card" src={project.src} />
+          <div className="links">
+            <a href={project.repository}>Repo</a>
+            {project.deployment ? (
+              <a href={project.deployment}>App</a>
+            ) : null}
           </div>
         </div>
       ))}
