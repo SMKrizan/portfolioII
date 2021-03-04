@@ -85,9 +85,9 @@ h1.about {
   ol {
     border-bottom: none;
   }
-  #portrait-me {
-    width: 25%;
-  }
+  h1.about {
+    padding: 5% 0 0 0;
+  } 
   div#home {
     width: 100%;
   }

@@ -108,8 +108,7 @@ img#so {
     font-size: 1.8em;
   }
   div.me {
-    max-width: 50%;
-    min-width: 45%;
+    width: 50%;
     margin: 1em .3em .3em .3em;
   }
   div.text {
@@ -122,7 +121,7 @@ img#so {
   p.about {
     line-height: 1.2em;
     padding: 0.2em;
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   div#links {
     padding: 1.3em 0 0 0;
@@ -153,7 +152,7 @@ img#so {
     justify-content: center;
   }
   h1.about {
-    padding: 6%;
+    padding: 5% 0 0 0;
   }
   div.me {
     width: 50%;
@@ -168,7 +167,7 @@ img#so {
   p.about {
     line-height: 1.5em;
     padding: 0.5em;
-    font-size: 4.22em;
+    font-size: 4.2em;
   }
   div#links {
     justify-content: space-evenly;
@@ -193,16 +192,19 @@ img#so {
     padding: 0;
   }
   div.me {
-    width: 35%;
+    width: 40%;
   }
   div.text {
-    width: 40%;
+    width: 35%;
     border: 0.5em double var(--yellow);
-    margin: .1%;
+    margin: 0;
   }
   h2.about {
     padding: .67em;
   }
+  /* p.about {
+    font-size: 5.5em;
+  } */
   div#links {
     padding: 7.5% 0;
   }
