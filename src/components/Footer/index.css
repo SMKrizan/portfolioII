@@ -2,56 +2,56 @@ footer {
   position: relative;
   font-size: 1em;
   font-family: var(--txt1);
-  padding: 6% 14% 6% 14%;
   text-align: center;
-  bottom: 8%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
 }
-footer h5 {
+div#footer-layer {
+  background: rgba(233, 236, 239, 0.8);
+  width: 95%;
+}
+p#footer-text {
+  padding: .5em;
   border: 0.2em double var(--yellow);
 }
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
-  body {
-      width: 100%
-  }
     footer {
-    position: fixed;
     font-size: 1.1em;
-    padding: 0;
-    bottom: 0;
-    width: 100%;
+    padding: 2em;
   }
-  footer h5 {
-    padding: 5% 0;
+  div#footer-layer {
+    width: 85%
   }
 }
 /* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
 @media screen and (min-width: 768px) {
   footer {
-    font-size: 1.3em;
-    bottom: 27%;
+    font-size: 1.2em;
+    padding: 3em;
   }
-  footer h5 {
-    border: 0.2em double var(--yellow);
-    margin: 1%;
+  div#footer-layer {
+    width: 70%
   }
 }
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 992px) {
   footer {
-    font-size: 1.8em;
-    padding: 0;
-    bottom: 0;
+    font-size: 1.3em;
+    padding: 4em;
   }
-  footer h5 {
+  p#footer-text {
     padding: 2%;
   }
 }
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1200px) {
   footer {
-    position: fixed;
-    font-size: 3.5em;
-    bottom: 0;
+    font-size: 3.3em;
+    padding: 5em;
+  }
+  div#footer-layer {
+    width: 60%
   }
 }

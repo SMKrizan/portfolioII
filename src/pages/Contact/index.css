@@ -2,7 +2,6 @@ section.contact {
   display: flex;
   flex-wrap: wrap;
 }
-
 img#cameo {
   border-radius: 25em;
   max-width: 40%;
@@ -11,13 +10,11 @@ img#cameo {
   border: 0.1em double var(--yellow);
   flex-grow: 1;
 }
-
 h1.contact {
   max-width: 45%;
-  padding: 12% 8% ;
+  padding: 12% 13% 12% 3%;
   flex-grow: 1;
 }
-
 code {
   font-family: var(--txt2);
 }
@@ -29,68 +26,82 @@ h1.contact span.bold {
   font-size: 1.7em;
   font-weight: bold;
 }
-
 address {
   flex-grow: 2;
-  font-size: 1.76em;
+  font-size: 1.83em;
   font-family: var(--txt2);
   color: var(--light);
   background-color: black;
   border: 0.15em double var(--yellow);
   border-radius: 0.2em;
-  min-width: 250px;
+  /* min-width: 250px; */
   margin: auto .53em;
-  padding: 4%;
+  padding: 3.5%;
   text-align: left;
 }
-
 #first {
   color: var(--light);
 }
-
 #initial, #last {
   color: var(--pink);
 }
-
 #location {
   color: var(--dyellow);
 }
-
 #phone {
   color: var(--blue);
 }
-
+span#email a {
+  color: var(--dneon);
+}
 span#email a:hover {
   color: var(--lneon);
 }
 
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 576px) {
-  h1 {
+  h1.contact {
     font-size: 1.99em;
     padding: 7% 7% 3% 5%;
   }
   address {
-    line-height: 150%;
-    font-size: 1.95em;
+    line-height: 1.1em;
+    font-size: 2.6em;
   }
 }
 
 /* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
 @media screen and (min-width: 768px) {
-  h1 {
-    font-size: 2.3em;
-    padding: 7% 7% 2% 5%;
+  section.contact {
+    width: 100%;
+    padding: 8% 0 0 0;
+  }
+  h1.contact {
+    font-size: 2.9em;
+    padding: 13% 13% 2% 3%;
   }
   address {
-    font-size: 2.4em;
+    font-size: 2.76em;
+    padding: 2%;
   }
 }
 
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 992px) {
-  h1 {
-    font-size: 5.1em;
+  div.contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+  }
+  img#cameo {
+    border-radius: 50%;
+    max-width: 25%;
+  }
+  h1.contact {
+    width: 50%;
+    float: right;
+    font-size: 10em;
     padding: 3% 13% 0 16%;
   }
   span#email:hover a {
@@ -105,7 +116,7 @@ span#email a:hover {
 
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1200px) {
-  h1 {
+  h1.contact {
     font-size: 6.2em;
     padding: 3% 13% 0 16%;
   }
