@@ -13,30 +13,28 @@ div#footer-layer {
 }
 p#footer-text {
   padding: .5em;
-  border: 0.2em double var(--yellow);
+  border: 1px double var(--yellow);
 }
 /* MEDIA QUERY FOR SMALL DEVICES */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 400W) {
     footer {
     font-size: 1.1em;
     padding: 2em;
   }
   div#footer-layer {
-    width: 85%
+    width: 90%
   }
 }
-/* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
-@media screen and (min-width: 768px) {
+/* MEDIA QUERY FOR LARGE DEVICES */
+@media screen and (min-width: 1350px) {
   footer {
     font-size: 1.2em;
     padding: 3em;
   }
   div#footer-layer {
-    width: 70%
+    width: 75%
   }
-}
-/* MEDIA QUERY FOR LARGE DEVICES */
-@media screen and (min-width: 992px) {
+
   footer {
     font-size: 1.3em;
     padding: 4em;
@@ -46,7 +44,7 @@ p#footer-text {
   }
 }
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1900px) {
   footer {
     font-size: 3.3em;
     padding: 5em;

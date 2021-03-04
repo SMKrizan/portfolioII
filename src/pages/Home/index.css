@@ -1,0 +1,26 @@
+h1#home {
+  font-size: 4em;
+  text-align: center;
+  display: block;
+  padding: 1em;
+}
+/* MEDIA QUERY FOR SMALL DEVICES */
+@media screen and (min-width: 400px) {
+  h1#home {
+    font-size: 5.7em;
+  }
+}
+/* MEDIA QUERY FOR LARGE DEVICES */
+@media screen and (min-width: 1350px) {
+  h1#home {
+    font-size: 7.2em;
+    padding: 2em;
+  }
+}
+/* MEDIA QUERY FOR EXTRA LARGE DEVICES */
+@media screen and (min-width: 1900px) {
+    h1#home {
+        padding: 4em 0 3em 0;
+        font-size: 13em;
+    }
+}

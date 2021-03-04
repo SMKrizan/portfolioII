@@ -2,17 +2,20 @@ section.contact {
   display: flex;
   flex-wrap: wrap;
 }
+div.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
 img#cameo {
-  border-radius: 25em;
-  max-width: 40%;
-  padding: .3em;
-  margin: 4% auto 2% 8%;
-  border: 0.1em double var(--yellow);
+  border-radius: 50%;
+  max-width: 50%;
+  padding: 0.3em;
+  margin: 4% auto 2% 4%;
+  border: 2px double var(--yellow);
   flex-grow: 1;
 }
 h1.contact {
-  max-width: 45%;
-  padding: 12% 13% 12% 3%;
+  padding: 13% 5% 0 3%;
   flex-grow: 1;
 }
 code {
@@ -20,7 +23,7 @@ code {
 }
 h1.contact span.reg {
   font-size: 1.5em;
-  padding-left: .3em;
+  padding-left: 0.3em;
 }
 h1.contact span.bold {
   font-size: 1.7em;
@@ -28,21 +31,21 @@ h1.contact span.bold {
 }
 address {
   flex-grow: 2;
-  font-size: 1.83em;
+  font-size: 1.7em;
   font-family: var(--txt2);
   color: var(--light);
   background-color: black;
-  border: 0.15em double var(--yellow);
+  border: 5px double var(--yellow);
   border-radius: 0.2em;
   /* min-width: 250px; */
-  margin: auto .53em;
+  margin: auto 0.53em;
   padding: 3.5%;
   text-align: left;
 }
 #first {
   color: var(--light);
 }
-#initial, #last {
+#mi-last {
   color: var(--pink);
 }
 #location {
@@ -59,70 +62,72 @@ span#email a:hover {
 }
 
 /* MEDIA QUERY FOR SMALL DEVICES */
-@media screen and (min-width: 576px) {
-  h1.contact {
-    font-size: 1.99em;
-    padding: 7% 7% 3% 5%;
+@media screen and (min-width: 400px) {
+  img#cameo {
+    max-width: 47%;
+  }
+  h1.contact span.reg {
+    font-size: 1.7em;
+  }
+  h1.contact span.bold {
+    font-size: 1.9em;
   }
   address {
     line-height: 1.1em;
-    font-size: 2.6em;
+    font-size: 2em;
   }
 }
-
-/* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
-@media screen and (min-width: 768px) {
-  section.contact {
-    width: 100%;
-    padding: 8% 0 0 0;
-  }
-  h1.contact {
-    font-size: 2.9em;
-    padding: 13% 13% 2% 3%;
-  }
-  address {
-    font-size: 2.76em;
-    padding: 2%;
-  }
-}
-
 /* MEDIA QUERY FOR LARGE DEVICES */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1350px) {
+  section.contact {
+    justify-content: center;
+    border: 2px double var(--yellow);
+    margin: 0 3%;
+    padding: 3%;
+  }
   div.contact {
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center ;
+    align-items: center;
+    justify-content: center;
   }
   img#cameo {
-    border-radius: 50%;
-    max-width: 25%;
+    max-width: 30%;
   }
   h1.contact {
-    width: 50%;
+    width: 45%;
     float: right;
-    font-size: 10em;
-    padding: 3% 13% 0 16%;
+    font-size: 11em;
+  }
+  h1.contact span.reg {
+    font-size: 2.2em;
+  }
+  h1.contact span.bold {
+    font-size: 2.5em;
+  }
+  div#address {
+    width: 60%;
+  }
+  address {
+    max-width: 100%;
+    font-size: 4em;
+    padding: 2%;
+    position: center;
   }
   span#email:hover a {
     color: var(--lneon);
   }
-  address {
-    font-size: 4.2em;
-    padding: 1.8% 3%;
-    margin: 3% 18%;
-  }
 }
 
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1900px) {
   h1.contact {
     font-size: 6.2em;
-    padding: 3% 13% 0 16%;
+    padding: 3%;
   }
   address {
-    font-size: 5.2em;
+    font-size: 7em;
     padding: 1.5% 3%;
   }
-
 }

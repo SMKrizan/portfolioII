@@ -17,23 +17,24 @@ const Contact = () => {
           </span>
         </h1>
       </div>
-      <address>
-        <span id="first">Sara </span>
-        <span id="initial">M. </span>
-        <span id="last">Krizan</span>
-        <br />
-        <span id="location">Madison</span>, Wisconsin
-        <br />
-        T: +{" "}
-        <span id="phone">
-          1 608-622-0717
+      <div id="address">
+        <address>
+          <span id="first">Sara </span>
+          <span id="mi-last">M. Krizan</span>
           <br />
-        </span>
-        E:{" "}
-        <span id="email">
-          <a href="mailto:smkrizan@gmail.com">SMKrizan@gmail.com</a>
-        </span>
-      </address>
+          <span id="location">Madison</span>, Wisconsin
+          <br />
+          T: +{" "}
+          <span id="phone">
+            1 608-622-0717
+            <br />
+          </span>
+          E:{" "}
+          <span id="email">
+            <a href="mailto:smkrizan@gmail.com">SMKrizan@gmail.com</a>
+          </span>
+        </address>
+      </div>
     </section>
   );
 };

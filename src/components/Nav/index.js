@@ -7,16 +7,18 @@ const Nav = (props) => {
 
   return (
     <header>
-      <ol>
+      <ol id='navbar'>  
         {pages.map((page) => (
-          <li key={page}>
-            <a
-              id={page}
-              href={"#" + page}
-              onClick={() => props.handlePageChange(page)}
-            >
-              {page}
-            </a>
+          <li key={page} id='navitem'>
+            <div>
+              <a
+                id={page}
+                href={"#" + page}
+                onClick={() => props.handlePageChange(page)}
+              >
+                {page}
+              </a>
+            </div>
           </li>
         ))}
       </ol>

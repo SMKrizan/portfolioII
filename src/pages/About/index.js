@@ -6,7 +6,7 @@ const { portrait, LIBug, GitHub, stack } = images;
 
 const About = () => {
   return (
-    <section className='about'>
+    <section className="about">
       <h1 className="about">
         <span className="reg">About </span>
         <span className="bold">me</span>
@@ -19,17 +19,19 @@ const About = () => {
             className="me"
           />
         </div>
-        <div className="text">
-          <h2 className="about">
-            <span>My name is</span> Sara.
-          </h2>
-          <p className="about">
-            I am a full stack web developer and project manager with over a
-            decade of experience providing client and administrative support for
-            legal, scientific, and not-for-profit businesses. I am interested in
-            helping your teams find elegant solutions to challenges in software
-            development and project management.
-          </p>
+        <div id="about-text-container">
+          <div className="about-text">
+            <h2 className="about">
+              <span>My name is</span> Sara.
+            </h2>
+            <p className="about">
+              I am a full stack web developer and project manager with over a
+              decade of experience providing client and administrative support
+              for legal, scientific, and not-for-profit businesses. I am
+              interested in helping your teams find elegant solutions to
+              challenges in software development and project management.
+            </p>
+          </div>
           <div id="links">
             <div>
               <div className="badge" id="li">

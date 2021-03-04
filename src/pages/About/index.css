@@ -8,13 +8,19 @@ img.me {
   text-align: center;
 }
 h1.about {
-  padding: 0.3em;
+  padding: .76em;
 }
 h1.about span.reg {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 h1.about span.bold {
-  font-size: 1.8em;
+  font-size: 1.7em;
+}
+div.about-text {
+  padding: 1%;
+  margin: 2.5%;
+  background-color: var(--light);
+  border: 1px double var(--yellow);
 }
 h2.about {
   font-size: 1.76em;
@@ -24,7 +30,6 @@ p.about {
   font-size: 1.3em;
   margin: auto 0.76em;
   padding: 0.3em;
-  background-color: var(--light);
 }
 div#links {
   display: flex;
@@ -57,16 +62,14 @@ img#so {
 }
 
 /* MEDIA QUERY FOR SMALL DEVICES */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 400px) {
   div.about {
     display: flex;
     flex-wrap: wrap;
   }
   h2.about {
+    font-size: 2em;
     padding: .5em;
-  }
-  div.text {
-    padding-bottom: 25%;
   }
   p.about {
     font-size: 1.5em;
@@ -90,76 +93,35 @@ img#so {
     margin: 0.9em 0 0 0.1em;
   }
 }
-/* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
-@media screen and (min-width: 768px) {
-  div.about {
-    margin: 1%;
-    padding: 1%;
-    border: 0.3em double var(--yellow);
-  }
-  h1.about {
-    padding: 0.3em;
-    margin: .5em;
-  }
-  h1.about span.reg {
-    font-size: 1.5em;
-  }
-  h1.about span.bold {
-    font-size: 1.8em;
-  }
-  div.me {
-    width: 50%;
-    margin: 1em .3em .3em .3em;
-  }
-  div.text {
-    width: 48%;
-    padding: .2em;
-  }
-  h2.about {
-    font-size: 2em;
-  }
-  p.about {
-    line-height: 1.2em;
-    padding: 0.2em;
-    font-size: 1.4em;
-  }
-  div#links {
-    padding: 1.3em 0 0 0;
-    justify-content: space-evenly;
-  }
-  .badge {
-    height: 5em;
-    width: 5em;
-  }
-  img#li {
-    margin: 1.3em 0 0 0.5em;
-  }
-  img#gh {
-    margin: 1em 0.1em 0 0.2em;
-  }
-  img#so {
-    margin: 0.8em 0 0 0.1em;
-  }
-}
 /* MEDIA QUERY FOR LARGE DEVICES */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1350px) {
   div.about {
     margin: 1% 3%;
     padding: 2%;
-    border: 0.5em double var(--yellow);
+    border: 2px double var(--yellow);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   h1.about {
-    padding: 5% 0 0 0;
+    padding: 10% 0 0 0;
+  }
+  h1.about span.reg {
+    font-size: 5.4em;
+  }
+  h1.about span.bold {
+    font-size: 5.7em;
   }
   div.me {
     width: 50%;
     margin: 5px;
   }
-  div.text {
+  div#about-text-container {
     width: 50%;
+  }
+  div.about-text {
+    margin: .2em 0 0 .2em;
+    padding: 0 0 .4em 0;
   }
   h2.about {
     font-size: 6em;
@@ -187,9 +149,15 @@ img#so {
   }
 }
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1900px) {
   h1.about {
     padding: 0;
+  }
+  h1.about span.reg {
+    font-size: 8em;
+  }
+  h1.about span.bold {
+    font-size: 8.5em;
   }
   div.me {
     width: 40%;
@@ -202,9 +170,6 @@ img#so {
   h2.about {
     padding: .67em;
   }
-  /* p.about {
-    font-size: 5.5em;
-  } */
   div#links {
     padding: 7.5% 0;
   }

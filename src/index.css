@@ -48,14 +48,11 @@ main {
   margin-left: 0;
 }
 /* MEDIA QUERY FOR SMALL DEVICES */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 414px) {
 }
 /* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1350px) {
 }
 /* MEDIA QUERY FOR LARGE DEVICES */
-@media screen and (min-width: 992px) {
-}
-/* MEDIA QUERY FOR EXTRA LARGE DEVICES */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1900px) {
 }
