@@ -3,10 +3,10 @@ h1.resume {
     margin: .5em auto;
 }
 span.reg {
-    font-size: .9em;
+    font-size: 1em;
 }
 span.bold {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 div.resume {
     display: flex;
@@ -16,5 +16,33 @@ div.resume {
 img#pdf {
     border-radius: 100%;
     width: 80%;
-    margin: .5em 0 auto 0;
+    margin: .65em 0 auto 0;
 }  
+
+/* MEDIA QUERY FOR SMALL DEVICES */
+@media screen and (min-width: 414px) {
+    h1.resume {
+        margin: .7em auto;
+    }
+    div.resume {
+        margin: .7em 0 1em 0;
+    }
+    span.reg {
+        font-size: 1.2em;
+    }
+    span.bold {
+        font-size: 1.3em;
+    }  
+    img#pdf {
+        border-radius: 100%;
+        width: 80%;
+        margin: .9em 0 0 .3;
+    }  
+    
+}
+/* MEDIA QUERY FOR TABLETS AND MEDIUM DEVICES */
+@media screen and (min-width: 1350px) {
+}
+/* MEDIA QUERY FOR LARGE DEVICES */
+@media screen and (min-width: 1900px) {
+}
