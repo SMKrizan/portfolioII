@@ -47,6 +47,11 @@ main {
   margin-right: 0;
   margin-left: 0;
 }
+/* the following should prevent a scrollbar from being added in order to accomodate images */
+img {
+  max-width: 100%;
+  display: block;
+}
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 414px) {
 }
