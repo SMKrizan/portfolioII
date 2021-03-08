@@ -34,19 +34,15 @@ li a:active {
     width: 15%;
   }
 }
+/* MEDIA QUERY FOR LARGE DEVICES */
 @media only screen and (min-width: 1200px) {
   ol#navbar {
-    /* float: right; */
     border: none;
-    /* width: 100%;
-    margin-top: 3%;
-    margin-right: 2%; */
   }
   li#navitem {
     width: 12%;
   }
 }
-/* MEDIA QUERY FOR LARGE DEVICES */
 @media only screen and (min-width: 1600px) {
   li#navitem {
     margin-top: 1.8%;

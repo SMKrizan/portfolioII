@@ -38,7 +38,8 @@ img.card {
   margin: 0.3em;
   min-height: 20%;
 }
-div.links a {
+/* interfering with about-page links */
+/* div.links a {
   float: right;
   color: var(--dpink);
   font-family: var(--txt2);
@@ -47,7 +48,7 @@ div.links a {
   font-weight: 900;
   padding: 0.2em 0 0.7em 0;
   letter-spacing: 0.05em;
-}
+} */
 li a:hover {
   color: var(--pink);
   background-color: var(--lneon);

@@ -1,14 +1,12 @@
-div.me {
-  margin: 5px;
+section.about {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 1%;
 }
-img.me {
-  width: 100%;
-}
-.about {
-  text-align: center;
-}
-h1.about {
-  padding: .76em;
+h1.about.title {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  margin-top: 3%;
 }
 h1.about span.reg {
   font-size: 1.4em;
@@ -16,51 +14,60 @@ h1.about span.reg {
 h1.about span.bold {
   font-size: 1.7em;
 }
-div.about-text {
-  padding: 1%;
-  margin: 2.5%;
+div.about.portrait {
+  grid-column: 1 / 13;
+  grid-row: 2;
+  max-width: 100%;
+}
+div.about.content {
+  grid-column: 1 / 13;
+  grid-row: 3;
   background-color: var(--light);
   border: 1px double var(--yellow);
+  padding: .5%;
+  margin: 2.5%;
 }
 h2.about {
-  font-size: 1.76em;
-  padding: 0.3em;
+  font-size: 1.8em;
 }
 p.about {
-  font-size: 1.3em;
-  margin: auto 0.76em;
+  font-size: 1.4em;
+  margin: auto 0.65em;
   padding: 0.3em;
 }
-div#links {
-  display: flex;
-  justify-content: space-between;
-  padding: 5% 1.5em 0 1.5em;
-  margin-bottom: 0;
+div.about.links {
+  grid-column: 1 / 13;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.badge {
-  margin: 0.5em;
+div.badge-container {
+  margin-bottom: 2em;
   border-radius: 100%;
+  height: 6.7em;
+  width: 6.7em;
   background-color: var(--light);
   border: 1px double var(--yellow);
-  height: 5em;
-  width: 5em;
+  justify-self: center;
+  align-self: center;
 }
-.badge:hover {
+div.badge-container:hover {
   background-color: var(--lblue);
 }
-.badge img {
-  width: 60%;
+a#li.about img,
+a#gh.about img,
+a#so.about img{
+  width: 70%;
 }
-img#li {
-  margin: 1.2em 0 0 0.3em;
+a#li.about img {
+  margin: 1.3em auto auto 1.3em;
 }
-img#gh {
-  margin: 1em 0.1em 0 0.2em;
+a#gh.about img {
+  margin: .9em auto auto 1em;
 }
-img#so {
-  margin: 0.7em 0 0 0.1em;
+a#so.about img {
+  margin: .5em auto auto 1em;
 }
-
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 400px) {
   div.about {
