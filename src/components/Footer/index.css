@@ -46,8 +46,8 @@ p#footer-text {
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1900px) {
   footer {
-    font-size: 3.3em;
-    padding: 5em;
+    font-size: 2em;
+    padding: 2em;
   }
   div#footer-layer {
     width: 60%

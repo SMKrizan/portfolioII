@@ -23,7 +23,7 @@ const About = () => {
           My name is Sara.
         </h2>
         <p className="about">
-          I am a full stack web developer and project manager with over a decade
+          I am a full stack web developer and project manager with years
           of experience providing client and administrative support for legal,
           scientific, and not-for-profit businesses. I am interested in helping
           your teams find elegant solutions to challenges in software
