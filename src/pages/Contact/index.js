@@ -6,18 +6,20 @@ const { cameo } = image;
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact-container">
       <div className="contact">
-        <img src={cameo} alt="cameo portrait of Sara Krizan" id="cameo" />
-        <h1 className="contact">
-          <span className="reg">get </span>
-          <span className="bold">
-            in <br />
-            Touch
-          </span>
-        </h1>
+        <div id="container">
+          <img src={cameo} alt="cameo portrait of Sara Krizan" id="cameo" />
+          <h1 className="contact-title">
+            <span className="reg">get </span>
+            <span className="bold">
+              in <br />
+              Touch
+            </span>
+          </h1>
+        </div>
       </div>
-      <div id="address">
+      <div className="contact" id="address">
         <address>
           <span id="first">Sara </span>
           <span id="mi-last">M. Krizan</span>

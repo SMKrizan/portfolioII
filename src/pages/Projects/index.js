@@ -20,7 +20,7 @@ const Projects = () => {
             style={{ backgroundImage: "url(" + project.src + ")" }}
             ></div> */}
           <p>{project.description}</p>
-          <img className="card" src={project.src} />
+          <img className="card" src={project.src} alt={project.alt}/>
           <div className="links">
             <a href={project.repository}>Repo</a>
             {project.deployment ? (

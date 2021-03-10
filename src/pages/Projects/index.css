@@ -38,7 +38,7 @@ img.card {
   margin: 0.3em;
   min-height: 20%;
 }
-/* interfering with about-page links */
+/* interfering with about-page */
 /* div.links a {
   float: right;
   color: var(--dpink);
