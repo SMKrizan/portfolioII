@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import smkres from "../../utils/smkres.pdf";
 import "./index.css";
@@ -7,7 +7,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pd
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
+
   const [pageNumber, setPageNumber] = useState(1);
+
+  let file = useMemo(() => ({ url: smkres, withCredentials: true }), []);
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
@@ -28,7 +31,7 @@ function Resume() {
 
   return (
     <div>
-      <Document file={smkres} onLoadSuccess={onDocumentLoadSuccess}>
+      <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>
       <div>
@@ -52,4 +55,3 @@ function Resume() {
 }
 
 export default Resume;
-
