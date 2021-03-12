@@ -8,12 +8,12 @@ footer {
   padding: 1em;
 }
 div#footer-layer {
-  background: rgba(233, 236, 239, 0.8);
   width: 95%;
 }
 p#footer-text {
   padding: .5em;
   border: 1px double var(--yellow);
+  background: rgba(233, 236, 239, 0.8);
 }
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 400W) {

@@ -8,17 +8,11 @@ span.reg {
 span.bold {
     font-size: 1.1em;
 }
-div.resume {
-    display: flex;
-    width: 100%;
+div#pdf-container {
+    display: grid;
     justify-content: center;
+    overflow: scroll;
 }
-img#pdf {
-    border-radius: 100%;
-    width: 80%;
-    margin: .65em 0 auto 0;
-}  
-
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 414px) {
     h1.resume {

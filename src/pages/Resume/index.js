@@ -1,9 +1,15 @@
 import React, { useState, useMemo } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
+import { Document, Page, pdfjs, setOptions } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import smkres from "../../utils/smkres.pdf";
 import "./index.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+const options = {
+  cMapUrl: "cmaps/",
+  cMpaPacked: true,
+};
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
@@ -30,8 +36,12 @@ function Resume() {
   }
 
   return (
-    <div>
-      <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
+    <div id='pdf-container'>
+      <Document
+        file={file}
+        onLoadSuccess={onDocumentLoadSuccess}
+        options={{ cMapUrl: "cmaps/", cMapPacked: true }}
+      >
         <Page pageNumber={pageNumber} />
       </Document>
       <div>

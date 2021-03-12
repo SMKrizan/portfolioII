@@ -8,9 +8,7 @@ const cameo = 'portfolioII/assets/images/portrait-cameo.jpg';
 const GitHub = 'portfolioII/assets/images/GitHub.png';
 const LIBug = 'portfolioII/assets/images/LIBug.png';
 const stack = 'portfolioII/assets/images/stack.png';
-// RESUME
 const res = 'portfolioII/assets/images/res.jpg';
-const smkres = 'portfolioII/assets/images/smkres.pdf';
 // PROJECT IMAGES
 const keep = 'portfolioII/assets/images/keep.jpg';
 const onBase = 'portfolioII/assets/images/onBase.jpg';
@@ -28,7 +26,6 @@ export default {
     LIBug,
     stack,
     res,
-    smkres,
     keep,
     onBase,
     readTheory,
