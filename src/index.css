@@ -18,8 +18,10 @@ html {
   --dyellow: #fad000;
   --pink: #eb01eb;
   --dpink: #cf09ed;
+  --purple: #9c0ca6;
   --blue: #80fff7;
   --lblue: #04f1f5;
+  --dblue: #05dade;
   
   --txt1: Karla, Latin, 'sans-serif';
   --txt2: Inconsolata, source-code-pro, Menlo, Monaco, Consolas, monoscript;
@@ -50,6 +52,18 @@ main {
 img {
   max-width: 100%;
   display: block;
+}
+/* CSS for dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: var(--lavender);
+  }
+  *:before,
+  *:after {
+    color: var(--lavender);
+}
+
 }
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (min-width: 414px) {

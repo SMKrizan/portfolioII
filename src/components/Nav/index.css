@@ -58,3 +58,19 @@ li a:active {
     width: 12%;
   }
 }
+/* CSS for dark mode */
+@media (prefers-color-scheme: dark) {
+  ol#navbar {
+    border-bottom: 0.2em double var(--pink);
+  }
+  li a {
+    color: var(--purple);
+  }
+  li a:hover {
+    color: var(--dneon);
+    background-color: var(--dblue);
+  }
+  li a:active {
+    color: var(--yellow);
+  }
+}

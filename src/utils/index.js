@@ -4,6 +4,8 @@
 // PORTRAITS
 const portrait = 'portfolioII/assets/images/portrait-cir.jpg';
 const cameo = 'portfolioII/assets/images/portrait-cameo.jpg';
+const portrait_dk = 'portfolioII/assets/images/portrait-tri.jpg';
+const cameo_dk = 'portfolioII/assets/images/portrait-camdk.jpg';
 // LINK IMAGES
 const GitHub = 'portfolioII/assets/images/GitHub.png';
 const LIBug = 'portfolioII/assets/images/LIBug.png';
@@ -21,7 +23,9 @@ const woodlandConsulting = 'portfolioII/assets/images/wc.jpg'
 
 export default {
     portrait,
+    portrait_dk,
     cameo,
+    cameo_dk,
     GitHub,
     LIBug,
     stack,

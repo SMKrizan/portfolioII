@@ -2,14 +2,16 @@ import React from "react";
 import image from "../../utils";
 import "./index.css";
 
-const { cameo } = image;
+const { cameo, cameo_dk } = image;
 
 const Contact = () => {
+  const darkModeCheck = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
   return (
     <section className="contact-container">
       <div className="contact">
         <div id="container">
-          <img src={cameo} alt="cameo portrait of Sara Krizan" id="cameo" />
+          <img src={darkModeCheck ? cameo_dk : cameo} alt="cameo portrait of Sara Krizan" id="cameo" />
           <h1 className="contact-title">
             <span className="reg">get </span>
             <span className="bold">

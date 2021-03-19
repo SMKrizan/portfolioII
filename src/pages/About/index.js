@@ -2,9 +2,14 @@ import React from "react";
 import images from "../../utils";
 import "./index.css";
 
-const { portrait, LIBug, GitHub, stack } = images;
+const { portrait, portrait_dk, LIBug, GitHub, stack } = images;
 
 const About = () => {
+  const darkModeCheck = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if(!darkModeCheck){
+    console.log("User prefers light interface.")
+  }
+
   return (
     <section className="about page">
       <h1 className="about title">
@@ -13,7 +18,7 @@ const About = () => {
       </h1>
       <div className="about portrait">
         <img
-          src={portrait}
+          src={darkModeCheck ? portrait_dk : portrait}
           alt="photographic portrait of Sara Krizan"
           className="me"
         />
@@ -23,11 +28,10 @@ const About = () => {
           My name is Sara.
         </h2>
         <p className="about">
-          I am a project manager and full stack web developer with a background in biology and extensive
+          I am a project manager and full stack web developer with a foundation in biology and extensive
           experience providing client and administrative support for legal,
-          scientific, and not-for-profit businesses. I am interested in helping
-          your teams find elegant solutions to challenges in software
-          development and project management.
+          scientific, and not-for-profit businesses. I am driven by equal parts curiousity and the desire to contribute to work that has a positive impact on the world. I would be thrilled for an opportunity to help
+          your teams identify creative and elegant solutions to challenges in software development and project management.
         </p>
       </div>
       <div className="about links">

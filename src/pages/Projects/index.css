@@ -83,3 +83,31 @@ div.card-container p{
     margin: 1%;
   }
 }
+/* CSS for dark mode */
+@media (prefers-color-scheme: dark) {
+div.card-container {
+  background-color: var(--lavender);
+  box-shadow: 0.2em 0.3em 1em 0.1em var(--lgrey);
+}
+div.card-container h3 {
+  color: var(--purple);
+}
+div.card-container p {
+  color: var(--darker);
+}
+div.project-links a {
+  color: var(--dneon);
+}
+li a:hover {
+  color: var(--pink);
+  background-color: var(--lneon);
+}
+li a:focus {
+  background-color: var(--lneon);
+}
+li a:active {
+  color: var(--pink);
+}
+
+
+}

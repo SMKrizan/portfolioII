@@ -28,12 +28,14 @@ div.about.content {
   margin: 2.5%;
 }
 h2.about {
-  font-size: 1.8em;
+  font-size: 1.5em;
+  margin: .5em auto;
 }
 p.about {
-  font-size: 1.4em;
+  font-size: 1.1em;
   margin: auto 0.65em;
   padding: 0.3em;
+  text-justify: inter-character;
 }
 div.about.links {
   grid-column: 1 / 7;
@@ -254,4 +256,20 @@ a#so.about img {
   a#so.about img {
     margin: 0.9em auto auto 1.35em;
   }
+}
+/* CSS for dark mode */
+@media (prefers-color-scheme: dark) {
+  div.about.content {
+    background-color: var(--lavender);
+    border: 1px double var(--pink);
+    color: var(--darker);;
+  }
+  div.badge-container {
+    background-color: var(--lavender);
+    border: 1px double var(--pink);
+  }
+  div.badge-container:hover {
+    background-color: var(--blue);
+  }
+  
 }

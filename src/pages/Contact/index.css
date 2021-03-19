@@ -185,3 +185,12 @@ span#email a:hover {
     font-size: 3.6em;
   }
 }
+/* CSS for dark mode */
+@media (prefers-color-scheme: dark) {
+  img#cameo {
+    border: 2px double var(--pink);
+  }
+  address {
+    border: 2px double var(--pink);
+  }
+}

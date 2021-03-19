@@ -53,3 +53,15 @@ p#footer-text {
     width: 60%
   }
 }
+/* CSS for dark mode */
+@media (prefers-color-scheme: dark) {
+  footer {
+    color: var(--purple);
+  }
+  p#footer-text {
+    border: 1px double var(--pink);
+  } 
+  p#footer-text {
+    background-color: var(--lavender);
+  }
+}
