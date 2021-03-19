@@ -13,7 +13,6 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 function App() {
-
   // 1st parameter is value of state and 2nd is the 'setter' which allows state to change; passing initial state '0' to useState(); note that useState() always returns an array
   const [currentPage, handlePageChange] = useState('/');
 
