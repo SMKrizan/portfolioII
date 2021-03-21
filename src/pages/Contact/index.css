@@ -29,11 +29,11 @@ h1.contact-title {
   width: 100%;
 }
 h1.contact-title span.reg {
-  font-size: 1.5em;
+  font-size: 1.4em;
   padding-left: 0.3em;
 }
 h1.contact-title span.bold {
-  font-size: 1.7em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 div#address.contact {
@@ -73,10 +73,10 @@ span#email a:hover {
 /* MEDIA QUERY 1 FOR SMALL DEVICES */
 @media screen and (min-width: 450px) {
   h1.contact-title span.reg {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   h1.contact-title span.bold {
-    font-size: 2.1em;
+    font-size: 1.8em;
   }
   div#address.contact {
     width: 90%;
@@ -88,40 +88,56 @@ span#email a:hover {
 /* MEDIA QUERY 2 FOR SMALL DEVICES */
 @media screen and (min-width: 650px) {
   img#cameo {
-    grid-column: 3 / 10;
+    grid-column: 3 / 9;
   }
   h1.contact-title span.reg {
-    font-size: 2.4em;
+    font-size: 1.7em;
   }
   h1.contact-title span.bold {
-    font-size: 2.6em;
+    font-size: 1.9em;
   }
   address {
-    font-size: 2.3em;
+    font-size: 2em;
   }
+  div#address.contact {
+    width: 85%;
+  }
+  
 }
 /* MEDIA QUERY 1 FOR MEDIUM DEVICES */
 @media screen and (min-width: 850px) {
+  img#cameo {
+    grid-column: 4 / 9;
+  }
+  h1.contact-title {
+    grid-column: 10 / -4;
+    /* width: 100%; */
+  }
+ 
   section.contact-container {
     grid-template-rows: 0.5fr 4fr 0 4fr 0;
   }
   h1.contact-title span.reg {
-    font-size: 2.9em;
+    font-size: 2.2em;
   }
   h1.contact-title span.bold {
-    font-size: 3.2em;
+    font-size: 2.4em;
   }
   address {
-    font-size: 2.6em;
+    font-size: 2.2em;
   }
+  div#address.contact {
+    width: 75%;
+  }
+
 }
 /* MEDIA QUERY 2 FOR MEDIUM DEVICES */
 @media screen and (min-width: 1050px) {
   h1.contact-title span.reg {
-    font-size: 3.4em;
+    font-size: 2.5em;
   }
   h1.contact-title span.bold {
-    font-size: 3.6em;
+    font-size: 2.7em;
   }
   address {
     font-size: 2.6em;
@@ -133,56 +149,65 @@ span#email a:hover {
     grid-template-rows: 0.25fr 4fr 0 4fr 0;
   }
   img#cameo {
-    grid-column: 4 / 9;
+    grid-column: 5 / 9;
     padding: 0.6em;
     border: 4px double var(--yellow);
   }
   h1.contact-title {
-    grid-column: 9 / -2;
+    grid-column: 9 / -4;
   }
   h1.contact-title span.reg {
-    font-size: 3.6em;
+    font-size: 2.5em;
     padding-left: 0.1em;
   }
   h1.contact-title span.bold {
-    font-size: 3.8em;
+    font-size: 2.7em;
   }
   div#address.contact {
     grid-column: 1 / -1;
     grid-row: 4 / 5;
-    width: 85%;
+    width: 60%;
   }
   address {
-    font-size: 2.9em;
+    font-size: 2.5em;
     border: 6px double var(--yellow);
     border-radius: 0.3;
   }
 }
 /* MEDIA QUERY 2 FOR LARGE DEVICES */
 @media screen and (min-width: 1500px) {
+  img#cameo {
+    grid-column: 4 / 8;
+  }
+  h1.contact-title {
+    grid-column: 9 / -4;
+  }
   h1.contact-title span.reg {
-    font-size: 4em;
+    font-size: 3.6em;
   }
   h1.contact-title span.bold {
-    font-size: 4.3em;
+    font-size: 3.8em;
   }
   div#address.contact {
-    width: 77%;
+    width: 65%;
   }
   address {
-    font-size: 3.1em;
+    font-size: 2.8em;
   }
 }
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media screen and (min-width: 1900px) {
-  h1.contact-title span.reg {
-    font-size: 4.4em;
+  img#cameo {
+    grid-column: 5 / 8;
   }
-  h1.contact-title span.bold {
-    font-size: 4.6em;
+  h1.contact-title {
+    grid-column: 8 / -5;
+  }
+  div#address.contact {
+    width: 55%;
   }
   address {
-    font-size: 3.6em;
+    font-size: 3.2em;
   }
 }
 /* CSS for dark mode */
