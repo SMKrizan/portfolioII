@@ -6,15 +6,12 @@ const { portrait, portrait_dk, LIBug, GitHub, stack } = images;
 
 const About = () => {
   const darkModeCheck = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  if(!darkModeCheck){
-    console.log("User prefers light interface.")
-  }
 
   return (
     <section className="about page">
-      <h1 className="about title">
-        <span className="reg">About </span>
-        <span className="bold">me</span>
+      <h1 className="about-title">
+        <span className="about-reg">about </span>
+        <span className="about-bold">Me</span>
       </h1>
       <div className="about portrait">
         <img
@@ -30,7 +27,7 @@ const About = () => {
         <p className="about">
           I am a project manager and full stack web developer with a foundation in biology and extensive
           experience providing client and administrative support for legal,
-          scientific, and not-for-profit businesses. I am driven by equal parts curiousity and the desire to contribute to work that has a positive impact on the world. I would be thrilled for an opportunity to help
+          scientific, and not-for-profit businesses. I am driven by equal parts curiosity and the desire to contribute to work that has a positive impact on the world. I would be thrilled for an opportunity to help
           your teams identify creative and elegant solutions to challenges in software development and project management.
         </p>
       </div>
@@ -74,3 +71,5 @@ const About = () => {
 };
 
 export default About;
+
+

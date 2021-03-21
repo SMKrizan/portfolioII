@@ -7,9 +7,9 @@ const { project_info } = projects;
 const Projects = () => {
   return (
     <section className="card">
-      <h1 className="projects">
-        <span className="reg">featured </span>
-        <span className="bold">Projects</span>
+      <h1 className="proj-title">
+        <span className="proj-reg">featured </span>
+        <span className="proj-bold">Projects</span>
       </h1>
       {project_info.map((project) => (
         <div key={project.key} className="card-container">

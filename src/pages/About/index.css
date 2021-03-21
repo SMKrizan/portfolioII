@@ -3,16 +3,16 @@ section.about {
   grid-template-columns: repeat(6, minmax(1fr, 1fr));
   grid-gap: 1%;
 }
-h1.about.title {
+h1.about-title {
   grid-column: 1 / 7;
   grid-row: 1;
   margin-top: 3%;
 }
-h1.about span.reg {
-  font-size: 1.4em;
+h1.about-title span.about-reg {
+  font-size: 1.2em;
 }
-h1.about span.bold {
-  font-size: 1.7em;
+h1.about-title span.about-bold {
+  font-size: 1.4em;
 }
 div.about.portrait {
   grid-column: 1 / 7;
@@ -32,7 +32,7 @@ h2.about {
   margin: .5em auto;
 }
 p.about {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: auto 0.65em;
   padding: 0.3em;
   text-justify: inter-character;
@@ -72,11 +72,11 @@ a#so.about img {
 }
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media only screen and (min-width: 450px) {
-  h1.about span.reg {
-    font-size: 1.6em;
+  h1.about-title span.about-reg {
+    font-size: 1.3em;
   }
-  h1.about span.bold {
-    font-size: 1.9em;
+  h1.about-title span.title-bold {
+    font-size: 1.5em;
   }
 }
 @media only screen and (min-width: 550px) {
@@ -94,10 +94,10 @@ a#so.about img {
     margin-right: 3%;
   }
   h2.about {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   p.about {
-    font-size: 1em;
+    font-size: .92em;
     padding: 0.5em 0;
   }
   div.about.links {
@@ -124,7 +124,7 @@ a#so.about img {
     padding: 2.5%;
   }
   p.about {
-    font-size: 1.1em;
+    font-size: .97em;
   }
   div.badge-container {
     height: 4.5em;
@@ -138,7 +138,7 @@ a#so.about img {
     padding: 3%;
   }
   p.about {
-    font-size: 1.2em;
+    font-size: 1.07em;
     padding: 0;
   }
   div.badge-container {
@@ -160,7 +160,7 @@ a#so.about img {
     padding: 4%;
   }
   p.about {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   div.badge-container {
     height: 6em;
@@ -182,14 +182,14 @@ a#so.about img {
     font-size: 1.8em;
   }
   p.about {
-    font-size: 1.6em;
+    font-size: 1.39em;
   }
 }
 @media only screen and (min-width: 1100px) {
   section.about {
     grid-template-columns: repeat(8, 1fr);
   }
-  h1.about.title {
+  h1.about-title {
     grid-column: 2 / 8;
   }
   div.about.portrait {
@@ -203,17 +203,17 @@ a#so.about img {
   }
 }
 @media only screen and (min-width: 1550px) {
-  h1.about span.reg {
+  h1.about-title span.title-reg {
     font-size: 2.2em;
   }
-  h1.about span.bold {
+  h1.about-title span.title-bold {
     font-size: 2.5em;
   }
   h2.about {
     font-size: 2.2em;
   }
   p.about {
-    font-size: 1.9em;
+    font-size: 1.7em;
   }
   div.badge-container {
     height: 7.5em;
@@ -231,17 +231,17 @@ a#so.about img {
 }
 /* MEDIA QUERY FOR EXTRA LARGE DEVICES */
 @media only screen and (min-width: 1900px) {
-  h1.about span.reg {
+  h1.about-title span.about-reg {
     font-size: 2.75em;
   }
-  h1.about span.bold {
+  h1.about-title span.about-bold {
     font-size: 2.95em;
   }
   h2.about {
     font-size: 2.6em;
   }
   p.about {
-    font-size: 2.2em;
+    font-size: 2em;
   }
   div.badge-container {
     height: 9em;

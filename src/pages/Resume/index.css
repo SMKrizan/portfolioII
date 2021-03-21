@@ -1,11 +1,11 @@
-h1.resume {
+h1.res-title {
     text-align: center;
     margin: .5em auto;
 }
-span.reg {
-    font-size: 1em;
+span.res-reg {
+    font-size: .9em;
 }
-span.bold {
+span.res-bold {
     font-size: 1.1em;
 }
 div#pdf-container {
