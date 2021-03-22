@@ -22,8 +22,8 @@ const project_info = [
         alt: 'TallyMax application screenshot',
         title: "TallyMax",
         description: 'GROUP PROJECT: a word-game focused vocabulary application with definitions, audio and images',
-        respository: 'https://github.com/jgrossh2/word-generator',
-        deployment: 'https://jgrossh2.github.io/word-generator/',
+        respository: 'https://jgrossh2.github.io/Tally-Max/',
+        deployment: 'https://github.com/jgrossh2/Tally-Max',
     },
     {        
         key: 3,
@@ -43,7 +43,7 @@ const project_info = [
         width: 1,
         alt: 'keep budget-tracker application screenshot',
         title: '.keep',
-        description: 'a simple budget-tracker and Progressive Web App (PWA) using IndexedDB to facilitate a consistent user experience even with spotty internet reception',
+        description: 'a simple budget-tracker and Progressive Web App (PWA) using IndexedDB to facilitate a consistent user experience even with unreliable wifi or internet',
         repository: 'https://github.com/SMKrizan/keep',
         deployment: 'https://keep-budget-app.herokuapp.com/',
     },
@@ -86,7 +86,7 @@ const project_info = [
         width: 1,
         alt: 'shopShop application screenshot',
         title: "Shop-Shop",
-        description: 'an e-commerce website using Redux and a payment platform',
+        description: 'an e-commerce website using Redux and "Stripe" payment platform',
         repository: 'https://github.com/SMKrizan/shopShop-Redux',
         deployment: 'https://shopshop-redux.herokuapp.com/',
 }
