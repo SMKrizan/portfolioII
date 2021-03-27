@@ -1,6 +1,6 @@
 # Hello! My name is Sara Krizan.
 
-## I am a full-stack web developer and project manager. This is [my portfolio](https://smkrizan-portfolio.herokuapp.com/).
+## I am a full-stack web developer and project manager and this is my [portfolio of work](https://smkrizan-portfolio.herokuapp.com/).
 
 ### Table of Contents:
 - [Languages & Technologies](#languages-technologies)
@@ -35,13 +35,13 @@ Deployed portfolio:
 https://smkrizan-portfolio.herokuapp.com/
 
 ## <a name="acknowledgements">Acknowledgements</a>:
-- Portrait designs by [Sonya Louise](https://www.amazon.com/Search-Heartbreaking-Beauty-Photo-Essay/dp/B087CC2R4H)
+- Portraits by [Sonya Louise](https://www.amazon.com/Search-Heartbreaking-Beauty-Photo-Essay/dp/B087CC2R4H)
 - Stack Overflow Icon made by [Pixel perfect](https://www.flaticon.com/)
 - Emoji component inspired by [Sean McPherson's article on the topic]( https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7)
  
     
 ## <a name="contribution-guidelines">Contributions</a>:
-Please feel free to contact me with any requests to contribute to this project or if interested in collaborating on future works.
+Please feel free to contact me if you would like to make a contribution or if you are interested in collaborating on future works.
     
 
 ## <a name="questions?">Questions?</a> 
