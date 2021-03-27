@@ -1,63 +1,51 @@
-# Portfolio - take II: React
+# Hello! My name is Sara Krizan.
 
+## I am a full-stack web developer and project manager. This is [my portfolio](https://smkrizan-portfolio.herokuapp.com/).
 
-## Description
-This is my portfolio as a full-stack web developer, redesigned to use React.
-
-
-### Programming Languages and Technologies Used:
-- React
-- Node.js
-- ES6
-- Javascript
-- JSX
-- HTML
-- CSS
-
-### NPM Packages:
-- react
-- react-dom
-- react-images
-- react-photo-gallery
-- react-scripts
-
-## Table of Contents:
-
+### Table of Contents:
+- [Languages & Technologies](#languages-technologies)
+- [NPM Packages](#npm-packages)
 - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
 - [Contributions](#contribution-guidelines)
 - [Questions?](#questions?)
 
+### <a name="languages-technologies">Programming Languages and Technologies Used</a>:
+- HTML
+- CSS
+- Javascript
+- ES6
+- React.js
+- JSX
+- Node.js
 
-## <a name="usage">Usage</a>:
+### <a name="npm-packages">NPM Packages</a>:
+- react
+- react-dom
+- react-images
+- react-pdf
+- react-scripts
+
+
+### <a name="usage">Usage</a>:
 Github repository: 
 https://github.com/SMKrizan/portfolioII
-Deployed portfolio:
-https://smkrizan.github.io/portfolioII/
 
+Deployed portfolio:
+https://smkrizan-portfolio.herokuapp.com/
 
 ## <a name="acknowledgements">Acknowledgements</a>:
-Stack Overflow Icon made by [Pixel perfect](https://www.flaticon.com/)
-
-
+- Portrait designs by [Sonya Louise](https://www.amazon.com/Search-Heartbreaking-Beauty-Photo-Essay/dp/B087CC2R4H)
+- Stack Overflow Icon made by [Pixel perfect](https://www.flaticon.com/)
+- Emoji component inspired by Sean McPherson https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7
+ 
     
 ## <a name="contribution-guidelines">Contributions</a>:
-Made with ☕+❤️ by Sara Krizan and in consultation with several LAs, TA, and learning instructor through the University of Wisconsin Extended Campus Coding Bootcamp.
-
-Please feel free to contact me via my GitHub account below with any requests to contribute to this project or collaborate on future works.
+Please feel free to contact me with any requests to contribute to this project or if interested in collaborating on future works.
     
 
 ## <a name="questions?">Questions?</a> 
-Sara Krizan    
-[GitHub](https://github.com/SMKrizan)
-
-ACCEPTANCE CRITERIA:
-
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository    
-
-PROJECTS:
-For each project you feature in your portfolio, you should include the following:
-- The title of the project
-- A link to the deployed application
-- A link to the corresponding GitHub repository
+Sara Krizan
+- [smkrizan@gmail.com](mailto:smkrizan@gmail.com)
+- [GitHub](https://github.com/SMKrizan)
+- [LinkedIn](https://www.linkedin.com/in/smkrizan/)
