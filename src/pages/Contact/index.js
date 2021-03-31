@@ -8,7 +8,7 @@ const Contact = () => {
   const darkModeCheck = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
   return (
-    <section className="contact-container">
+    <section id="Contact" className="contact-container">
       <div className="contact">
         <div id="container">
           <img src={darkModeCheck ? cameo_dk : cameo} alt="cameo portrait of Sara Krizan" id="cameo" />

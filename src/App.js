@@ -15,7 +15,9 @@ import Footer from './components/Footer';
 function App() {
   // 1st parameter is value of state and 2nd is the 'setter' which allows state to change; passing initial state '0' to useState(); note that useState() always returns an array
   const [currentPage, handlePageChange] = useState('/');
-
+  // this is used to differentially render content; on small screens the content is accessed by clicking on the navbar elements, on larger screens the content is layed out on one single, long page so that it can be accessed via scrolling OR by navigating with the navbar links.
+  const wideScreen = window.innerWidth > 875;
+  
   const renderPage = () => {
     switch (currentPage) {
       case 'Projects':
@@ -38,11 +40,22 @@ function App() {
         handlePageChange={handlePageChange}
       />
       <main>
-      <div>{renderPage(currentPage)}</div>
+        {!wideScreen ? (
+          <div>{renderPage(currentPage)}</div>
+        ) : (
+          <div>
+          <Home></Home>
+          <About></About>
+          <Projects></Projects>
+          <Resume></Resume>
+          <Contact></Contact>
+        </div>  
+        )}
       </main>
       <Footer></Footer>
     </div>
   );
 }
+
 
 export default App;

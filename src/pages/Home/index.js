@@ -4,7 +4,7 @@ import './index.css';
 const Home = (props) => {
   return (
     <>
-      <div id='home'>
+      <div id='Home'>
         <h1 id='home'>Hello!</h1>
       </div>
     </>

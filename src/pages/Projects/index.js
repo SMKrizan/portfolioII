@@ -6,7 +6,7 @@ const { project_info } = projects;
 
 const Projects = () => {
   return (
-    <section className="card">
+    <section id="Projects" className="card">
       <h1 className="proj-title">
         <span className="proj-reg">featured </span>
         <span className="proj-bold">Projects</span>

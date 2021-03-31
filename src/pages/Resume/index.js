@@ -36,7 +36,7 @@ function Resume() {
   }
 
   return (
-    <div id="pdf-container">
+    <div id="Resume" class="pdf-container">
       <h1 className="res-title">
         <span className="res-reg">current </span>
         <span className="res-bold"> Resume</span>

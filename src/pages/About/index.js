@@ -8,7 +8,7 @@ const About = () => {
   const darkModeCheck = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
   return (
-    <section className="about page">
+    <section id="About" className="about page">
       <h1 className="about-title">
         <span className="about-reg">about </span>
         <span className="about-bold">Me</span>

@@ -32,6 +32,13 @@ li a:active {
 }
 /* MEDIA QUERY FOR MEDIUM DEVICES */
 @media only screen and (min-width: 850px) {
+  header#fixed {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+  } 
   li#navitem {
     width: 15%;
   }

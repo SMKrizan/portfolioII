@@ -8,7 +8,7 @@ span.res-reg {
 span.res-bold {
     font-size: 1.1em;
 }
-div#pdf-container {
+div.pdf-container {
     display: grid;
     justify-content: center;
     overflow: scroll;

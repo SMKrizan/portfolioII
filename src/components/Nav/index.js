@@ -6,13 +6,12 @@ const Nav = (props) => {
   const [pages] = useState(["Resume", "Projects", "Contact", "About"]);
 
   return (
-    <header>
+    <header id="fixed">
       <ol id='navbar'>  
         {pages.map((page) => (
           <li key={page} id='navitem'>
             <div>
               <a
-                id={page}
                 href={"#" + page}
                 onClick={() => props.handlePageChange(page)}
               >
