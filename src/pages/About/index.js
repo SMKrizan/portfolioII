@@ -21,9 +21,9 @@ const About = () => {
         />
       </div>
       <div className="about content">
-        <h2 className="about">
+        {/* <h2 className="about">
           My name is Sara.
-        </h2>
+        </h2> */}
         <p className="about">
         I am a full-stack web developer and project manager with foundations in biology and client services. I have extensive experience providing support to legal, scientific and not-for-profit businesses, and a trackrecord of successes as a project manager using both waterfall and Agile methodologies. I am driven by equal parts curiosity and the desire to contribute to work that has a positive impact on the world! I would be thrilled for an opportunity to leverage my science education, project management background and skills in JavaScript, Python, MongoDB, SQL and React.js, to help your teams identify creative and elegant solutions to challenges in software development and project management.
         </p>

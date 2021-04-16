@@ -80,4 +80,8 @@ li a:active {
   li a:active {
     color: var(--yellow);
   }
+  header#fixed {
+    background-color: black;
+  } 
+
 }

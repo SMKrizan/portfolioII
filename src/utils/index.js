@@ -12,9 +12,7 @@ const LIBug = 'portfolioII/assets/images/LIBug.png';
 const stack = 'portfolioII/assets/images/stack.png';
 const res = 'portfolioII/assets/images/res.jpg';
 // PROJECT IMAGES
-const keep = 'portfolioII/assets/images/keep.jpg';
 const onBase = 'portfolioII/assets/images/onBase.jpg';
-const readTheory = 'portfolioII/assets/images/readTheory.jpg';
 const shopShop = 'portfolioII/assets/images/shopShop.jpg';
 const TallyMax = 'portfolioII/assets/images/TallyMax.png';
 const weatherView = 'portfolioII/assets/images/weatherView.png';
@@ -30,9 +28,7 @@ export default {
     LIBug,
     stack,
     res,
-    keep,
     onBase,
-    readTheory,
     shopShop,
     TallyMax,
     weatherView,

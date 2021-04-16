@@ -76,13 +76,6 @@ div.card-container p{
     margin: 1%;
   }
 }
-/* MEDIA QUERY FOR SMALL DEVICES */
-@media only screen and (min-width: 1200px) {
-  div.card-container {
-    width: 22%;
-    margin: 1%;
-  }
-}
 /* CSS for dark mode */
 @media (prefers-color-scheme: dark) {
 div.card-container {
