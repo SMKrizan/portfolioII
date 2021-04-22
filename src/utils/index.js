@@ -15,7 +15,7 @@ const res = 'portfolioII/assets/images/res.jpg';
 const onBase = 'portfolioII/assets/images/onBase.jpg';
 const shopShop = 'portfolioII/assets/images/shopShop.jpg';
 const TallyMax = 'portfolioII/assets/images/TallyMax.png';
-const weatherView = 'portfolioII/assets/images/weatherView.png';
+const weatherView = 'portfolioII/assets/images/weatherView.jpg';
 const wishList = 'portfolioII/assets/images/wishList.png';
 const woodlandConsulting = 'portfolioII/assets/images/wc.jpg'
 

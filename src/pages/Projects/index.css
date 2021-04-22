@@ -16,7 +16,6 @@ h1.proj-title span.proj-bold {
 div.card-container {
   background-color: var(--lolive);
   box-shadow: 0.4em 0.5em 1.5em 0.1em var(--lavender);
-  /* margin: auto; */
   text-align: center;
   width: 90%;
   margin: 3%;
@@ -33,6 +32,7 @@ div.card-container p {
   padding: 0.4em;
   text-align: center;
   margin: 0 0.45em;
+  bottom: 2%;
 }
 img.card {
   width: 98%;
@@ -40,6 +40,9 @@ img.card {
   min-height: 20%;
 }
 /* possibly interfering with about-page */
+div.project-links {
+  bottom: 2%;
+}
 div.project-links a {
   float: right;
   color: var(--dpink);

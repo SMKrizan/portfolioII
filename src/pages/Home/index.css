@@ -1,13 +1,21 @@
-h1#home {
-  padding: 1em 1em 3em 1em;
+div#Home {
+  padding: 9% 5% 15% 5%;
 }
-h1#home span.reg {
+h1#home span.reg{
   font-size: 1em;
-  text-align: center;
-  display: block;
+  display: inline;
+}
+h1#home.top2{
+  text-align: left;
+  padding-left: 20%;
 }
 h1#home span.bold {
   font-size: 1.3em;
+  display: inline;
+}
+h1#home.bot2{
+  text-align: right;
+  padding-right: 20%;
 }
 /* MEDIA QUERY FOR LARGE DEVICES */
 @media screen and (min-width: 1350px) {
