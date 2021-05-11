@@ -22,7 +22,7 @@ const project_info = [
         alt: 'TallyMax application screenshot',
         title: "TallyMax",
         description: 'GROUP PROJECT: a word-game focused vocabulary application with definitions, audio and images',
-        respository: 'https://jgrossh2.github.io/Tally-Max/',
+        repository: 'https://jgrossh2.github.io/Tally-Max/',
         deployment: 'https://github.com/jgrossh2/Tally-Max',
     },
     {        
